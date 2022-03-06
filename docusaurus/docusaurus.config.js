@@ -39,7 +39,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      autoCollapseSidebarCategories: true,
+      hideableSidebar: true,
       navbar: {
+        hideOnScroll: true,
         title: 'Lernjournal',
         logo: {
           alt: 'Docusaurus Logo',
@@ -82,6 +85,19 @@ const config = {
             title: 'Links',
             items: [
               {
+                label: 'Home',
+                to: '/',
+              },
+              {
+                label: 'Doku',
+                to: '/docs',
+              }
+            ]
+          },
+          {
+            title: ' ',
+            items: [
+              {
                 label: 'GitHub',
                 href: 'https://zzelav.github.io/lernjournal/',
               },
@@ -98,7 +114,7 @@ const config = {
                 href: 'https://docusaurus.io/',
               },
             ],
-          }
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
