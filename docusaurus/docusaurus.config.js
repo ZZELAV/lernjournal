@@ -123,7 +123,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://zzelav.github.io/lernjournal/',
+                href: 'https://github.com/ZZELAV/lernjournal',
               },
               {
                 label: 'Moodle',
