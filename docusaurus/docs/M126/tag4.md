@@ -10,6 +10,12 @@ Wir haben uns die Standards der IP-Kameras angeschaut. Dabei wurden die verschie
 
 Danach haben wir die zwei verschiedene IP-Kameras in den Betrieb genommen.
 
+Heute haben wir die Kameras von Reolink und Denver konfiguriert.
+
+Die Kamera von Reolink war sehr einfach zum Einrichten, da sie einer der aktuellsten Kameras ist. Sie wurde über ein eigenes Programm konfiguriert und das Livebild konnte auch in diesem Programm gesehen werden.
+
+Die Kamera von Denver war nicht so einfach zum Konfigurieren gewesen, da sie noch den alten Flash Player genutzt hat. Wir haben es nicht hingebracht, das Bild zu bekommen.
+
 CCTV -> Closed Cirquit Television  
 ℹ️ nur für begrenzte Empfänger und kein Rundfunk
 
