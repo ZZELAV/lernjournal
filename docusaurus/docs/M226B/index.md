@@ -20,3 +20,7 @@ pagination_prev: null
 > ***Tag 4***  
 > Beispiel BZT7-BZT10  
 > Formativer Selbsttest
+
+> ***Tag 5***  
+> Beispiel BZT10  
+> Vorbereitung Prüfung
