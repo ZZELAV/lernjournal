@@ -23,6 +23,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: 'docs',
+          path: 'docs',
           // Please change this to your repo.
         },
         blog: {
@@ -33,6 +35,18 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'appendix',
+        path: 'appendix',
+        routeBasePath: 'appendix',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
     ],
   ],
 
@@ -54,7 +68,13 @@ const config = {
             docId: 'index',
             position: 'left',
             label: 'Doku',
-          }
+          },
+          {
+            to: '/appendix/',
+            label: 'Appendix',
+            position: 'left',
+            activeBaseRegex: `/appendix/`,
+          },
         ],
       },
       footer: {
@@ -121,6 +141,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell', 'java'],
       },
     }),
 };

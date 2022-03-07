@@ -1,0 +1,30 @@
+# Tag 1
+
+:::note Thema
+Theorie zum Printing
+:::
+
+## 1.1 Was haben wir gemacht?
+
+Wir haben uns die Theorie vom Drucken angeschaut. Dabei haben wir die Begriffe RIP, Treiber, GDI und PDL genauer angeschaut.
+
+RIP -> Raster Image Processor  
+ℹ️ Macht ein Bitmap für den Druck
+
+GDI -> Graphics Device Interface (nur für Windows)  
+ℹ️ Die Schnittstelle zwischen Anwendung und Druckertreiber
+
+PDL -> Page Description Language  
+ℹ️ Die Programmiersprache/Druckersprache der heutigen Drucker
+
+## 1.2 Wie haben wir das gemacht?
+
+Wir haben die Begriffe in OneNote aufgeschrieben und genauer erklärt und einen Ablauf von der Anwendung bis zum fertigen Druck durchgemacht.
+
+## 1.3 Was habe ich verstanden?
+
+Ich habe verstanden was das PDL ist und macht. PDL ist die Programmiersprache/Druckersprache der heutigen Drucker.
+
+## 1.4 Was habe ich noch nicht richtig verstanden?
+
+Ich habe noch nicht ganz verstanden wie das Verfahren beim RIP funktioniert, damit aus einer Pixelgrafik ein Bitmap wird.

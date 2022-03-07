@@ -2,4 +2,24 @@
 pagination_prev: null
 ---
 
-# M122
+# M122: Abläufe mit einer Scriptsprache automatisieren
+
+![logo_module](/img/m122/powershell_logo.png "align_right")
+
+> ***Tag 1***  
+> Einführung ins neue Modul  
+> Die ersten Cmdlets gelernt
+
+> ***Tag 2***  
+> Offline Hilfe von PowerShell installiert  
+> Where-Object  
+> Ausgaben formatieren
+
+> ***Tag 3***  
+> Parameter  
+> Pipeline  
+> Repetition
+
+> ***Tag 4***  
+> Datenspeicher von PS  
+> PowerShell-Provider
