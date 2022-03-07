@@ -111,6 +111,10 @@ const config = {
               {
                 label: 'Doku',
                 to: '/docs',
+              },
+              {
+                label: 'Appendix',
+                to: '/appendix',
               }
             ]
           },
