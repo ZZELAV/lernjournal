@@ -914,4 +914,5 @@ public class Angestellte extends Mitarbeiter {
 
 ## 3 Unklarheiten
 
-- **Wo zeigt das `ehepartner.ehepartner` hin? (BZT6)**  
+**Wo zeigt das `ehepartner.ehepartner` hin? (BZT6)**  
+Er zeigt auf den Übergabeparameter, der übergeben wird. Der Übergabeparameter zeigt auf die Variable `private Person ehepartner = null`
