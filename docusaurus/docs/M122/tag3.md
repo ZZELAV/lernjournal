@@ -12,27 +12,43 @@
 | 5       | Ihre Kollegen benötigen die Ausgabe im HTML-Format:                       |
 | 6       | Abschliessend wird das Ergebnis in eine Datei gespeichert:                |
 
+```powershell
 get-childitem "*.exe" | where-object {$_.Length -gt 20000} | sort-object length -d | select-object -property name, length | convertto-html | out-file "C:\Temp\getchilditem_exe.html"
+```
 
 ## 2 Diverse Übungen | Repetition
 
 **Der Befehl zur Berechnung der 4. Potenz von 5 lautet: [math]::Pow(5,4). Formulieren Sie einen Befehl, welcher alle Zweierpotenzen von 1 bis 100 ausgibt.**  
-  1..100 | foreach-object -process {[math]::pow($_,2)}
+```powershell
+1..100 | foreach-object -process {[math]::pow($_,2)}
+```
 
 **Erweitern Sie obige Aufgabe so, dass nur gerade Exponenten berücksichtigt werden!**  
-  1..100 | % {if($_ % 2 -eq 0 ){foreach-object -process {[math]::pow($_,2)}}}
+```powershell
+1..100 | % {if($_ % 2 -eq 0 ){foreach-object -process {[math]::pow($_,2)}}}
+```
 
 **Listen Sie rekursiv Name und Länge aller Gif-Dateien, welche eine Länge von 1'000 oder mehr aufweisen, unterhalb des Verzeichnisses "c:\windows" auf!**  
+```powershell
 get-childitem -path "C:\Windows" -r "*.gif" -erroraction silentlycontinue | select-object name, length | where-object {$_.length -gt 1000}
+```
 
 **Geben Sie die Anzahl (als EINE einzelne Zahl) der gif-Dateien, welche eine Länge von 1'000 oder mehr aufweisen und sich unterhalb des Verzeichnisses c:\windows befinden, aus!**  
+```powershell
 get-childitem -path "C:\Windows" -r "*.gif" -erroraction silentlycontinue | select-object name, length | where-object {$_.length -gt 1000} | measure-object | select-object -property count
+```
 
 **Geben Sie den Inhalt der "Harddisk" aus (Get-ChildItem "Harddisk"), auf welcher sich eine bestimmte Datei (z.B. test.txt) befindet. D.h. Sie holen die Information, um welche Harddisk es sich handelt, aus der Datei "test.txt" heraus!**  
+```powershell
 (get-childitem test.txt).psdrive.root
+```
 
 **Geben Sie die Summe der CPU-Zeit (nur Ausgabe EINER Zahl!) aus, welche alle Prozesse mit dem Namen svchost verbraucht haben!**  
+```powershell
 get-process "svchost" | measure-object cpu -sum | select-object -property sum
+```
 
 **Prozesse können mehrere sog. Threads aufweisen. Formulieren Sie einen Befehl, welcher die totale Anzahl Threads auf dem System ausgibt!**  
+```powershell
 get-process | select-object -expandproperty threads | measure-object | select-object -property count
+```
