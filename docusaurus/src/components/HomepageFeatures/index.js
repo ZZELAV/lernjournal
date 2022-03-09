@@ -4,15 +4,23 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: (
+      <>
+        Aktuelles Semester
+      </>
+    ),
     description: (
       <>
-        Aktuelles Semester: 4
+        Wir sind aktuell im 4. Semester
       </>
     ),
   },
   {
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: (
+      <>
+        Lernjournal
+      </>
+    ),
     description: (
       <>
         Dieses Lernjournal wird geführt, um das Erlernte festzuhalten.
@@ -20,20 +28,24 @@ const FeatureList = [
     ),
   },
   {
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: (
+      <>
+        Aktuelle Module
+      </>
+    ),
     description: (
       <>
-        Aktuelle Module: M122, M126, M226B, M239
+        M122, M126, M226B, M239
       </>
     ),
   },
 ];
 
-function Feature({Svg, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <h3>{title}</h3>
       </div>
       <div className="text--center padding-horiz--md">
         <p>{description}</p>
