@@ -7,18 +7,23 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Wir sind aktuell im 4. Semester
+        Aktuelles Semester: 4
       </>
     ),
   },
   {
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Dieses Lernjournal wird geführt, um das Erlernte festzuhalten.
+      </>
+    ),
   },
   {
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Dieses Lernjournal wird geführt, um das Erlernte festzuhalten.
+        Aktuelle Module: M122, M126, M226B, M239
       </>
     ),
   },
