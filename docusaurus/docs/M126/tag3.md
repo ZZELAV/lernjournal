@@ -8,7 +8,7 @@ Drucken mit Linux
 
 Wir haben den USB-Drucker so eingerichtet, dass die Nachbargruppe über das Netzwerk drucken kann.
 
-Dafür haben wir mittels CUPS den Drucker im Netzwerk freigeben, damit alle den Drucker sehen können und nutzen können
+Dafür haben wir mittels CUPS den Drucker im Netzwerk freigeben, damit alle den Drucker sehen und nutzen können.
 
 ## 1.2 Wie haben wir das gemacht?
 
@@ -20,4 +20,4 @@ Wie man den Drucker mittels CUPS im Netzwerk freigibt.
 
 ## 1.4 Was habe ich noch nicht richtig verstanden?
 
-Wir konnten den freigebenen Drucker nur über Windows einrichtet. Wie man dies in Linux macht, habe ich noch nicht verstanden.
+Wir konnten den freigebenen Drucker nur über Windows sehen und somit nur über Windows drucken. Wie man dies in Linux macht, habe ich noch nicht verstanden.
