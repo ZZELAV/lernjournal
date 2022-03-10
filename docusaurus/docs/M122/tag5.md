@@ -1,5 +1,7 @@
 # Tag 5
 
+## 1 Übungen Alias
+
 **Listen Sie alle Aliase auf, die sich auf Cmdlets auswirken, die als Substantiv ItemProperty aufweisen.**  
 ```powershell
 get-alias -definition "*-itemproperty"
@@ -24,3 +26,14 @@ $host.privatedata.errorforegroundcolor = 'yellow'
 ```powershell
 new-psdrive -name MyDocs -psprovider filesystem -root "$home\Documents"
 ```
+
+## 2 Selbsttest Grundlagen PS
+
+![PDF Selbsttest Seite 1](/img/m122/selbsttest_grundlagen_ps-1.png)
+![PDF Selbsttest Seite 2](/img/m122/selbsttest_grundlagen_ps-2.png)
+![PDF Selbsttest Seite 3](/img/m122/selbsttest_grundlagen_ps-3.png)
+![PDF Selbsttest Seite 4](/img/m122/selbsttest_grundlagen_ps-4.png)
+![PDF Selbsttest Seite 5](/img/m122/selbsttest_grundlagen_ps-5.png)
+![PDF Selbsttest Seite 6](/img/m122/selbsttest_grundlagen_ps-6.png)
+![PDF Selbsttest Seite 7](/img/m122/selbsttest_grundlagen_ps-7.png)
+![PDF Selbsttest Seite 8](/img/m122/selbsttest_grundlagen_ps-8.png)
