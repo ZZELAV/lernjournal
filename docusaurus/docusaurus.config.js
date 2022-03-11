@@ -78,7 +78,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Aktuelle Module',
@@ -140,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
+        copyright: `v4.5.11.2<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,
