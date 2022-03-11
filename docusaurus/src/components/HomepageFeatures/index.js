@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    Svg: require('@site/static/img/undraw_new_entries_re_cffr.svg').default,
     title: (
       <>
         Aktuelles Semester
@@ -16,6 +17,7 @@ const FeatureList = [
     ),
   },
   {
+    Svg: require('@site/static/img/undraw_key_points_re_u903.svg').default,
     title: (
       <>
         Lernjournal
@@ -28,6 +30,7 @@ const FeatureList = [
     ),
   },
   {
+    Svg: require('@site/static/img/undraw_file_manager_re_ms29.svg').default,
     title: (
       <>
         Aktuelle Module
@@ -41,10 +44,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({title, description}) {
+function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
         <h3>{title}</h3>
       </div>
       <div className="text--center padding-horiz--md">
