@@ -555,5 +555,11 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
+Im Beispiel BZT6 werden die zwei neuen Methoden `heiraten()` und `scheiden()` eingeführt. Die Methoden werden in der Klasse `Person` implementiert.
+
+Zuerst wird eine Referenz auf den Ehepartner erstellt, die auf `NULL` gesetzt wird. Danach wird in der Methode `heiraten()` als erstes überprüft, ob der übergebene Wert nicht die Person selbst ist. Danach wird überprüft, ob die Person selbst und der Ehepartner noch keinen Ehepartner haben. Treffen diese beiden Überprüfungen zu, wird die Referenz auf die Person gesetzt und die Person auf die Referenz.
+
+Bei der Methode `scheiden()` muss nur überprüft werden, ob die Person verheiratet ist. Trifft dies zu, wird die Referenz von der Person entfernt und die Person von der Referenz.
+
 UML:  
 ![UML](/img/m226b/plantuml/tag3_02.svg)
