@@ -7,7 +7,7 @@ pagination_next: null
 
 ## M226B
 
-[UML](/appendix/M226B/uml)
+[UML](/appendix/M226B/UML)
 
 ## M239
 
