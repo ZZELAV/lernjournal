@@ -309,6 +309,24 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
+Was macht und passiert eigentlich mit der Methode `vorstellen()`? Sie wird in der Superklasse erstellt und wird dann in den Subklassen überschrieben (`@Override`). Das überschreiben, erlaubt einen Methodennamen mehrmals zu nutzen und immer eine andere Ausgabe zu erzeugen. Die Ausgabe der Methode `vorstellen()` in der Klasse `Lernender` ist somit eine andere als in der Klasse `Lehrer`. Gibt es die Methode in der aufgerufenen Klasse nicht, wird die Methode in der Superklasse genutzt.
+
+Somit gilt, Methoden und Attribute von Subklassen haben Vorrang von den Methoden und Attributen in der Superklasse.
+
+:::info Late Binding
+Dieses Prinzip nennt man **Late Binding**. Es wird erst zur Laufzeit entschieden, welche Methoden und Attribute aufgerufen werden.
+:::
+
+Die Annotation `@Override`, hilft Java zu verstehen, dass diese Methode überschrieben wird, ist aber nicht dringend notwendig.
+
+Um auf die Methode in der Superklasse zuzugreifen, kann das mit dem Prefix `super` gemacht werden.
+
+**Unterschied Überschreiben und Überladen**
+
+Überschreiben -> Beim Überschreiben wird die gesamte Methode überschrieben und gibt eine andere Ausgabe aus, als in den anderen Klassen.
+
+Überladen -> Beim Überladen wird die Ausgabe der Superklasse erweitert.
+
 ### 2.2 BZT6
 
 ```java
