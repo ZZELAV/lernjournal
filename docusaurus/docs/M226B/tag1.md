@@ -7,7 +7,7 @@ Polymorphie ist die Vielgestaltigkeit von Klassen. Damit können mehrere Methode
 :::info
 Statische Polymorphie:  
 Methoden überschreiben (verschiedene Parameter)
----
+
 Dynamische Polymorphie:  
 Methoden werden in Subklassen überschrieben (dadurch ergibt sich ein anderes Verhalten der Klasse)
 :::
