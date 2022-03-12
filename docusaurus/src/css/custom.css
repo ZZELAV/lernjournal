@@ -45,3 +45,39 @@ img[alt="logo_module"] {
 img[title="align_right"] {
   float: right;
 }
+
+.header-github-link:hover {
+  opacity: 0.6;
+}
+
+.header-github-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/github_logo_light.svg)
+    no-repeat;
+}
+
+html[data-theme='dark'] .header-github-link:before {
+  background: url(/img/github_logo_dark.svg)
+    no-repeat;
+}
+
+.header-moodle-link:hover {
+  opacity: 0.6;
+}
+
+.header-moodle-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/moodle_logo_light.svg)
+    no-repeat;
+}
+
+html[data-theme='dark'] .header-moodle-link:before {
+  background: url(/img/moodle_logo_dark.svg)
+    no-repeat;
+}

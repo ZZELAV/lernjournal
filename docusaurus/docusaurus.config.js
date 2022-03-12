@@ -75,6 +75,16 @@ const config = {
             position: 'left',
             activeBaseRegex: `/appendix/`,
           },
+          {
+            href: 'https://github.com/ZZELAV/lernjournal',
+            position: 'right',
+            className: 'header-github-link',
+          },
+          {
+            href: 'https://moodle.bztf.ch/my/',
+            position: 'right',
+            className: 'header-moodle-link',
+          },
         ],
       },
       footer: {
