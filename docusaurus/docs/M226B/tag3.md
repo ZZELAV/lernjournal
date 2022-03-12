@@ -124,7 +124,8 @@ public class Viereck extends GeomObject {
 In diesem Programm werden geometrische Objekte erstellt. Die Klasse `GeomObject` ist die Superklasse von den Klassen `RechtWinkligesDreieck`, `Kreis` und `Viereck`. In der Superklasse werden lediglich die Werte `flaeche` und `umfang` erfasst, denn diese werden in allen Subklassen verwendet. Auch wird in der Superklasse eine Methode `vorstellen()` erstellt. Diese erstellt einen Output, in dem die Fläche und Umfang ausgegeben werden. Sie wird in den Subklassen noch erweitert. In allen Subklassen gibt es einen Konstruktor, um das Objekt zu erstellen. Auch gibt es immer die Methoden `berechneUmfang()` und `berechneFlaeche()`, die den Umfang und Fläche berechnen. Dazu wird die Methode `vorstellen()` immer mit dem Namen des Objekts erweitert.
 
 UML:  
-![UML](/img/m226b/plantuml/tag3_01.svg)
+![UML](/img/m226b/plantuml/tag3_01.svg)  
+[Source Code](/appendix/M226B/UML/tag3_01)
 
 ## 2 Beispiele
 
@@ -562,4 +563,5 @@ Zuerst wird eine Referenz auf den Ehepartner erstellt, die auf `NULL` gesetzt wi
 Bei der Methode `scheiden()` muss nur überprüft werden, ob die Person verheiratet ist. Trifft dies zu, wird die Referenz von der Person entfernt und die Person von der Referenz.
 
 UML:  
-![UML](/img/m226b/plantuml/tag3_02.svg)
+![UML](/img/m226b/plantuml/tag3_02.svg)  
+[Source Code](/appendix/M226B/UML/tag3_02)

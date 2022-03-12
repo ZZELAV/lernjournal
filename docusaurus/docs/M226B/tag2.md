@@ -144,7 +144,8 @@ public class Angestellte extends Mitarbeiter {
 Jetzt werden auch noch die Mitarbeiter des BZTF erfasst. Dazu wird eine neue Superklasse `Mitarbeiter` erstellt. Diese Superklasse erbt auch von der Klasse `Person`. Von der Klasse `Mitarbeiter` erben dann `Lehrer` und `Angestellte`. Es wird eine Superklasse erstellt, weil sonst wieder doppelter Code entsteht.
 
 UML:  
-![UML](/img/m226b/plantuml/tag2_01.svg)
+![UML](/img/m226b/plantuml/tag2_01.svg)  
+[Source Code](/appendix/M226B/UML/tag2_01)
 
 ## 1.2 BZT4
 
@@ -326,4 +327,5 @@ public class Angestellte extends Mitarbeiter {
 Damit wir die verschiedenen Personen erstellen (oder auch instanzieren genannt) können, müssen in den jeweiligen Klassen die Konstruktoren erstellt werden. Die Konstrukturen die vererbt werden (also die in einer Superklasse sind), müssen auf `protected` gesetzt werden. Nur so, können die Subklassen die Konstruktor erben.
 
 UML:  
-![UML](/img/m226b/plantuml/tag2_02.svg)
+![UML](/img/m226b/plantuml/tag2_02.svg)  
+[Source Code](/appendix/M226B/UML/tag2_02)

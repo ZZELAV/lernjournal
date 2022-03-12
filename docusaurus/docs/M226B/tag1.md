@@ -292,7 +292,8 @@ public class Lernende extends Person
 In diesem Beispiel wurde der doppelte Code in eine Klasse zusammengefasst (auch Superklasse genannt). Somit können mit dem Argument `extends ...` die Methoden der Superklasse mitgenommen werden.
 
 UML:  
-![UML](/img/m226b/plantuml/tag1_01.svg)
+![UML](/img/m226b/plantuml/tag1_01.svg)  
+[Source Code](/appendix/M226B/UML/tag1_01)
 
 ---
 

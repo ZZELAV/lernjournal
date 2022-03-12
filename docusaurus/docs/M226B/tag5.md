@@ -400,4 +400,6 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
-[Komplettes UML](/appendix/m226b/uml)
+UML:  
+![UML](/img/m226b/plantuml/tag5_01.svg)  
+[Source Code](/appendix/M226B/UML/tag5_01)

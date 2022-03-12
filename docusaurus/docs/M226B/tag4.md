@@ -293,7 +293,8 @@ public class Angestellte extends Mitarbeiter {
 ```
 
 UML:  
-![UML](/img/m226b/plantuml/tag4_01.svg)
+![UML](/img/m226b/plantuml/tag4_01.svg)  
+[Source Code](/appendix/M226B/UML/tag4_01)
 
 ### 1.2 BZT8
 
