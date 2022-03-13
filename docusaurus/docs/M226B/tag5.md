@@ -400,6 +400,11 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
+Interfaces sind Klassen, die nur abstrakte Klassen und Methoden enthalten. Sie haben keinen anderen ausführbaren Code enthalten. Interfaces werden wie folgt erstellt:  
+```java
+public interface Eatable {}
+```
+
 UML:  
 ![UML](/img/m226b/plantuml/tag5_01.svg)  
 [Source Code](/appendix/M226B/UML/tag5_01)
