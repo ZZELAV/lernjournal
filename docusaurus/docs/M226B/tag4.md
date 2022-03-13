@@ -292,6 +292,14 @@ public class Angestellte extends Mitarbeiter {
 }
 ```
 
+getClass() -> Diese Methode gibt die Klasse zurück
+
+toString() -> Standardmässig gibt diese Methode bei der Ausgabe die Klasse und einen Hashwert aus. Beispiel: `bzt7.Angestellte@659e0bfd`
+
+hashCode() -> Gibt den Hashwert eines Objekts zurück. Es ist eine eindeutige Identifikation. In jedem Programm gibt es jeden Hashcode nur einmal.
+
+equals() -> Überprüft auf Gleichheit
+
 UML:  
 ![UML](/img/m226b/plantuml/tag4_01.svg)  
 [Source Code](/appendix/M226B/UML/tag4_01)
@@ -582,6 +590,8 @@ public class Angestellte extends Mitarbeiter {
     }
 }
 ```
+
+In `BZT8` wurden die *abstrakten Klassen* eingeführt. `abstract` kann vor die Klasse geschrieben werden und erlaubt es nicht mehr eine Instanz von dieser Klasse zu erstellen. Somit können nur noch die Subklassen von dieser Klasse erstellt werden.
 
 ### 1.3 BZT9
 
@@ -905,6 +915,8 @@ public class Angestellte extends Mitarbeiter {
     }
 }
 ```
+
+`abstract` kann auch bei Methoden genutzt werden. Es dient als Gerüst von Methoden. Diese Methoden **MÜSSEN** in den Subklassen implementiert werden.
 
 ## 2 Formativer Selbsttest
 
