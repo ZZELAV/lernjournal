@@ -4,7 +4,7 @@ pagination_prev: null
 
 #  Modul 126: Peripheriegeräte im Netzwerkbetrieb einsetzen
 
-![logo_module](/img/m126/peripherie_logo.jpg "align_right")
+![logo_module](/img/m126/peripherie_logo.jpg)
 
 > ***Tag 1***  
 > Einführung ins neue Modul  

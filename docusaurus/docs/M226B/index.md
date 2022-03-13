@@ -4,7 +4,7 @@ pagination_prev: null
 
 # Modul 226B: Objektorientiert implementieren
 
-![logo_module](/img/m226b/java_logo.png "align_right")
+![logo_module](/img/m226b/java_logo.png)
 
 > ***Tag 1***  
 > Einführung ins neue Modul  

@@ -4,7 +4,7 @@ pagination_prev: null
 
 # Modul 239: Internetserver in Betrieb nehmen
 
-![logo_module](/img/m239/server_logo.png "align_right")
+![logo_module](/img/m239/server_logo.png)
 
 > ***Tag 1***  
 > Einführung ins neue Modul  

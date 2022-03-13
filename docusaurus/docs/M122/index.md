@@ -4,7 +4,7 @@ pagination_prev: null
 
 # M122: Abläufe mit einer Scriptsprache automatisieren
 
-![logo_module](/img/m122/powershell_logo.png "align_right")
+![logo_module](/img/m122/powershell_logo.png)
 
 > ***Tag 1***  
 > Einführung ins neue Modul  
