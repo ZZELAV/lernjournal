@@ -14,6 +14,8 @@
   --ifm-color-primary-lighter: hsl(220, 49%, 40%);
   --ifm-color-primary-lightest: hsl(220, 48%, 46%);
   --ifm-code-font-size: 95%;
+  --ifm-scroll-bar: #DADDE1;
+  --ifm-bg: #FFFFFF;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -25,6 +27,27 @@
   --ifm-color-primary-light: hsl(190, 82%, 60%);
   --ifm-color-primary-lighter: hsl(190, 81%, 62%);
   --ifm-color-primary-lightest: hsl(190, 81%, 70%);
+  --ifm-scroll-bar: #606770;
+  --ifm-bg: #18191A;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-scroll-bar);
+  border-radius: 10px;
+  border: 5px solid var(--ifm-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary);
 }
 
 .docusaurus-highlight-code-line {
