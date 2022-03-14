@@ -27,3 +27,6 @@ pagination_prev: null
 > ***Tag 5***  
 > Aliase  
 > PSProvider
+
+> ***Tag 6***  
+> WMI und CIM
