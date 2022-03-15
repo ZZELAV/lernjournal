@@ -26,3 +26,7 @@ pagination_prev: null
 > ***Tag 5***  
 > IP-Kamera Integration  
 > Roline und Compro
+
+> ***Tag 6***  
+> Synology NAS Integration  
+> Grundlagen NAS (in Betrieb nehmen , RAID, JBOD)

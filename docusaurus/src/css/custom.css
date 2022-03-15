@@ -101,3 +101,8 @@ html[data-theme='dark'] .header-moodle-link:before {
   background: url(/img/moodle_logo_dark.svg)
     no-repeat;
 }
+
+img[alt="RAID"] {
+  height: 300px;
+  width: auto;
+}
