@@ -24,3 +24,7 @@ pagination_prev: null
 > ***Tag 5***  
 > Security bei Webservern  
 > Informationen gegen aussen (curl)
+
+> ***Tag 6***  
+> Security bei Webservern  
+> Vorbereitung auf LB1
