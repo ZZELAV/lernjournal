@@ -40,6 +40,8 @@ Forward-Zonendatei. Hier werden alle Einträge erfasst welche von Namen zu IP au
 **/etc/bind/db.0.0.0.10**  
 Reverse-Zonendatei. Wie bei der Forward-Zone werden hier Einträge erfasst, allerdings die Anfragen die von IP zu Namen übersetzt werden sollen.
 
+![BIND Dateien](/img/m239/bindDateien.svg)
+
 #### 1.3.1 Options
 
 ```config
