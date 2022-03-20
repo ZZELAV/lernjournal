@@ -26,3 +26,40 @@ Website Directory -> /var/www/
 Um eine neue eigene Website zu schreiben, muss im Website Directory ein neuer Ordner erstellt werden, in dem dann alle Dateien hineinkommen, die für die Website gebraucht werden.
 
 [Apache konfigurieren](/appendix/M239/apache_config)
+
+## 1.4 Struktur Apache
+
+Folgend die Struktur vom Apache Directory `/etc/apache2`
+
+```config
+.
+|-- apache2.conf // <- Hauptkonfigurationsdatei für apache
+|-- conf-available // <- Verzeichnis mit allen möglichen/verfügbaren Konfigurationen
+|   |-- charset.conf
+|   |-- localized-error-pages.conf
+|   |-- other-vhosts-access-log.conf
+|   |-- security.conf
+|   `-- serve-cgi-bin.conf
+|-- conf-enabled // <- Verzeichnis mit allen aktivieren Konfigurationen
+|   |-- charset.conf -> ../conf-available/charset.conf
+|   |-- localized-error-pages.conf -> ../conf-available/localized-error-pages.conf
+|   |-- other-vhosts-access-log.conf -> ../conf-available/other-vhosts-access-log.conf
+|   |-- security.conf -> ../conf-available/security.conf
+|   `-- serve-cgi-bin.conf -> ../conf-available/serve-cgi-bin.conf
+|-- envvars // Umgebungsvariablen für den Webserver
+|-- magic // Einstellungen für Mime-Types (Audio/Video/Text/usw.)
+|-- mods-available // <- Verzeichnis mit allen möglichen/verfügbaren Modulen
+|   |-- access_compat.load
+|   |-- actions.conf
+|   |-- // und weitere
+|-- mods-enabled // <- Verzeichnis mit allen aktivierten Modulen
+|   |-- access_compat.load -> ../mods-available/access_compat.load
+|   |-- alias.conf -> ../mods-available/alias.conf
+|   |-- // und weitere
+|-- ports.conf // <- Port-Konfigurationen für den ganzen Webserver
+|-- sites-available // Verzeichnis mit allen möglichen/vorkonfigurierten Webseiten
+|   |-- 000-default.conf
+|   `-- default-ssl.conf
+`-- sites-enabled // Verzeichnis mit allen aktivierten Webseiten
+    `-- 000-default.conf -> ../sites-available/000-default.conf
+```
