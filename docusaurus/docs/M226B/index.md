@@ -24,3 +24,6 @@ pagination_prev: null
 > ***Tag 5***  
 > Beispiel BZT10  
 > Vorbereitung Prüfung
+
+> ***Tag 6***  
+> Prüfung
