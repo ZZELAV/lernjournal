@@ -28,3 +28,8 @@ pagination_prev: null
 > ***Tag 6***  
 > Security bei Webservern  
 > Vorbereitung auf LB1
+
+> ***Tag 7***  
+> LB1  
+> PHP und Apache2  
+> V-Hosting
