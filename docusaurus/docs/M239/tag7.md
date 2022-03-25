@@ -29,3 +29,94 @@ Heute hatten wir die LB1
 * ...kann die Logging-Konfiguration eines Apache-Server verstehen und ist in der Lage sie sinnvoll den Bedürfnissen anzupassen
 * ...kann Apache-Konfigurationen auf Fehler untersuchen
 * ...kann nach Fehlern und Informationen in einer Apache2-Webserver-Log-Datei suchen
+
+## 2 PHP und Apache2
+
+### 2.1 Infos über PHP
+
+PHP (ursprünglich **P**ersonal **H**ome **P**age Tools, heute: **H**ypertext **P**re**P**rocessor) ist eine Skriptsprache die seit 1995 exisiert und seit dem weiterentwickelt worden.
+
+![PHPLogo](/img/m239/php_logo.png)
+
+Der Syntax gleicht dem von C oder Perl und ist dafür für viele Entwickler einfach zu erlernen.
+
+Einfaches Hello World in PHP:  
+```php
+<?php
+    echo "Hello World";
+?>
+```
+
+**Stärken von PHP**
+
+- Einfacher Umgang mit Zeichenketten
+
+**Schwächen von PHP**
+
+Ursprünglich war PHP eine reine prozedurale Sprache. Sie wurde mit der Zeit mit verschiedenen Funktionalitäten erweitert. Darunter:
+
+- Objektorientierung (wie Java)
+- Funktionale Programmierung (wie JavaScript)
+
+Damit gibt es in PHP viele verschiedene Wege ein Programm zu schreiben. Das kann Einsteigern Schwierigkeiten bereiten.
+
+### 2.2 Infos über Apache2
+
+Oft wird PHP mit einem Webserver zusammen genutzt (denn PHP ist nur eine Scriptsprache). Dafür muss dem Apache2-Server das PHP-Modul hinzugefügt werden.
+
+### 2.3 Installation von PHP für die CLI
+
+PHP-Pakete installieren:  
+```cmd
+sudo apt install php php-cli php-common
+```
+
+PHP-Version überprüfen:  
+```cmd
+php -v
+```
+
+Eine PHP-Datei auf der CLI ausführen:  
+```cmd
+php helloworld.php
+```
+
+### 2.4 Installation von PHP mit Apache2
+
+Um PHP mit Apache2 zu nutzen, muss folgendes Modul für Apache2 installiert werden:  
+```cmd
+sudo apt install libapache2-mod-php
+```
+
+Damit wird der Apache2-Server mit dem Modul *mod_php* erweitert. Um dies zu überprüfen kann folgender Befehl ausgeführt werden:  
+```cmd
+ls -la /etc/apache2/mods-enabled/ | grep php
+```
+
+### 2.5 Konfiguration von PHP
+
+PHP kann für viele verschiedene Dinge verwendet werden, daher gibt es auch sehr viele Konfigurationsmöglichkeiten. Es gibt grundsätzlich drei verschiedene PHP-Konfigurationen.
+
+**PHP für CLI**
+
+`/etc/php/7.4/cli/php.ini`
+
+**PHP für den Webserver**
+
+`/etc/php/7.4/apache2/php.ini`
+
+**Einstellungen für das Modul *mod_php***
+
+`/etc/apache2/mods-available/php7.4.conf`
+
+ℹ️ (7.4 = Version)
+
+:::note Auftrag
+Schauen Sie sich die php.ini-Dateien genauer an - Können Sie sich vorstellen was die einzelnen Befehle bedeuten?
+:::
+
+...
+
+## 3 V-Hosting
+
+...
