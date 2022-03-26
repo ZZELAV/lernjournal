@@ -9,13 +9,13 @@ Theorie zum Printing
 Wir haben uns die Theorie vom Drucken angeschaut. Dabei haben wir die Begriffe RIP, Treiber, GDI und PDL genauer angeschaut.
 
 RIP -> Raster Image Processor  
-ℹ️ Macht ein Bitmap für den Druck
+&#8505; Macht ein Bitmap für den Druck
 
 GDI -> Graphics Device Interface (nur für Windows)  
-ℹ️ Die Schnittstelle zwischen Anwendung und Druckertreiber
+&#8505; Die Schnittstelle zwischen Anwendung und Druckertreiber
 
 PDL -> Page Description Language  
-ℹ️ Die Programmiersprache/Druckersprache der heutigen Drucker
+&#8505; Die Programmiersprache/Druckersprache der heutigen Drucker
 
 ## 1.2 Wie haben wir das gemacht?
 

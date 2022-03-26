@@ -17,22 +17,22 @@ Die Kamera von Reolink war sehr einfach zum Einrichten, da sie einer der aktuell
 Die Kamera von Denver war nicht so einfach zum Konfigurieren gewesen, da sie noch den alten Flash Player genutzt hat. Wir haben es nicht hingebracht, das Bild zu bekommen.
 
 CCTV -> Closed Cirquit Television  
-ℹ️ nur für begrenzte Empfänger und kein Rundfunk
+&#8505; nur für begrenzte Empfänger und kein Rundfunk
 
 VSS -> Video Surveillance System  
-ℹ️ Heutige Standard  
+&#8505; Heutige Standard  
 Früher: analog (Coax, Zweidraht, Lichtwellenleiter)  
 Heute: digital (IP-Netz über Ethernet oder WLAN)
 
 H.264 / MPEG-4 AVC  
-ℹ️ Der am weitesten verbreitete Video-Codec für Videostreaming.  
+&#8505; Der am weitesten verbreitete Video-Codec für Videostreaming.  
 Entwickelt von ITU und MPEG
 
 Codec -> Rechenanleitung  
-ℹ️ Wie die Videosignale beschrieben und komprimiert werden
+&#8505; Wie die Videosignale beschrieben und komprimiert werden
 
 H.265 -> Nachfolger von H.264  
-ℹ️ 25% effizienter als H.264
+&#8505; 25% effizienter als H.264
 
 ## 1.2 Wie haben wir das gemacht?
 

@@ -9,14 +9,14 @@ Drucken mit Linux
 Wir haben einen Drucker mit Linux eingerichtet und mit CUPS und LPR gedruckt.
 
 CUPS -> Common Unix Printing Service  
-ℹ️ Über CUPS lassen sich Drucker nutzen, verwalten und im Netzwerk freigeben. CUPS kann über den Browser mit localhost:631 geöffnet werden. Es ist eine benutzerfreundliche Schnittstelle zum Drucken in Linux.
+&#8505; Über CUPS lassen sich Drucker nutzen, verwalten und im Netzwerk freigeben. CUPS kann über den Browser mit localhost:631 geöffnet werden. Es ist eine benutzerfreundliche Schnittstelle zum Drucken in Linux.
 
 LPR -> Line Printer  
-ℹ️ LPR wird über die Kommandozeile genutzt. Der Command sieht wie folgt aus:  
+&#8505; LPR wird über die Kommandozeile genutzt. Der Command sieht wie folgt aus:  
 `LPR -S <SERVER> -P <PRINTER> -J <FILE>`
 
 LPRng -> LPR new generation  
-ℹ️ Ist die weiterentwickelte Version von LPR.
+&#8505; Ist die weiterentwickelte Version von LPR.
 
 ## 1.2 Wie haben wir das gemacht?
 
