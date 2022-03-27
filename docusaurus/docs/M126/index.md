@@ -30,3 +30,7 @@ pagination_prev: null
 > ***Tag 6***  
 > Synology NAS Integration  
 > Grundlagen NAS (in Betrieb nehmen , RAID, JBOD)
+
+> ***Tag 7***  
+> Synology NAS Integration  
+> Laufwerk mappen, Freigabe erstellen
