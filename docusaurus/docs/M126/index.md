@@ -34,3 +34,7 @@ pagination_prev: null
 > ***Tag 7***  
 > Synology NAS Integration  
 > Laufwerk mappen, Freigabe erstellen
+
+> ***Tag 8***  
+> Synology NAS Integration  
+> HTTP(s), FTP/SFTP/FTPS und WebDAV
