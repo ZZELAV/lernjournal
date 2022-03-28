@@ -30,3 +30,6 @@ pagination_prev: null
 
 > ***Tag 6***  
 > WMI und CIM
+
+> ***Tag 7***  
+> Vorbereitung Zwischenprüfung
