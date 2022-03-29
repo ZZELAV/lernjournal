@@ -33,3 +33,6 @@ pagination_prev: null
 
 > ***Tag 7***  
 > Vorbereitung Zwischenprüfung
+
+> ***Tag 8***  
+> Zwischenprüfung
