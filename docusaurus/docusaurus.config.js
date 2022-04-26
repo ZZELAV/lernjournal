@@ -87,6 +87,11 @@ const config = {
           },
         ],
       },
+      algolia: {
+        apiKey: '8f943161d349a8fd8c7d3ceed74ba130',
+	indexName: 'dev_docusaurus_lernjournal',
+	appId: 'P0VYX0G0SJ',
+      },
       footer: {
         style: 'light',
         links: [
