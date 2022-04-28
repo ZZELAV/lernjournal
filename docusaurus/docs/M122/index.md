@@ -36,3 +36,7 @@ pagination_prev: null
 
 > ***Tag 8***  
 > Zwischenprüfung
+
+> ***Tag 9***  
+> Kontrollstrukturen  
+> Parameter und Verzögerung
