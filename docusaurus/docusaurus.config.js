@@ -60,7 +60,7 @@ const config = {
         title: 'Lernjournal',
         logo: {
           alt: 'Docusaurus Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
