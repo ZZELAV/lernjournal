@@ -38,3 +38,6 @@ pagination_prev: null
 > ***Tag 8***  
 > Synology NAS Integration  
 > HTTP(s), FTP/SFTP/FTPS und WebDAV
+
+> ***Tag 9***  
+> Drucken mit Windows / AD-Installation

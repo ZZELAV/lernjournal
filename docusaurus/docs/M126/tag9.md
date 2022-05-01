@@ -6,6 +6,10 @@ Drucken mit Windows / AD-Installation
 
 ## 1 Was haben wir gemacht?
 
+Wir haben einen Drucker auf unserem Gerät installiert und diesen über das Netzwerk freigegeben.
+
+Die zweite Aufgabe war es, einen Server zu installieren auf dem ein Active Directory läuft.
+
 ### 1.1 Zusammenfassung Einführung AD
 
 Verzeichnisdienste können als Telefonbuch gesehen werden. Es ist hierarchisch aufgebaut und bietet somit eine einfache Administration. Die Erstellung neuer Benutzer ist aufwendiger. Die Struktur kann auch auf mehrere Server aufgeteilt/gespiegelt werden.
@@ -21,6 +25,12 @@ Die Struktur kann über OUs, Domänen und Standorten erstellt werden. Informatio
 
 ## 2 Wie haben wir das gemacht?
 
+Wir haben HTML-Dateien und Lernvideos erhalten, die den Ablauf erklären.
+
 ## 3 Was habe ich verstanden?
 
+Das installieren des AD habe ich einfach gefunden und auch verstanden.
+
 ## 4 Was habe ich noch nicht richtig verstanden?
+
+Ich hatte ein paar Probleme beim installieren des Druckers und müsste dies nochmals anschauen.
