@@ -35,4 +35,7 @@ pagination_prev: null
 > Einführung LB1
 
 > ***Tag 9***  
-> Arbeiten an T1
+> Selbstständiges Arbeiten an LB1
+
+> *** Tag 10***  
+> Selbstständiges Arbeiten an LB1
