@@ -38,3 +38,6 @@ pagination_prev: null
 
 > ***Tag 9***  
 > Logging mit V-Hosting
+
+> ***Tag 10***  
+> Monitoring
