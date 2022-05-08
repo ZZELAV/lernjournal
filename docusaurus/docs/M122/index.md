@@ -40,3 +40,7 @@ pagination_prev: null
 > ***Tag 9***  
 > Kontrollstrukturen  
 > Parameter und Verzögerung
+
+> ***Tag 10***  
+> Parameter und Verzögerung  
+> Funktionen
