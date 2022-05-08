@@ -41,3 +41,6 @@ pagination_prev: null
 
 > ***Tag 9***  
 > Drucken mit Windows / AD-Installation
+
+> ***Tag 10***  
+> Drucken mit Windows / AD-Installation
