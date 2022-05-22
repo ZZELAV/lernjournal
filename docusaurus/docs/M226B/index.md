@@ -42,3 +42,6 @@ pagination_prev: null
 
 > ***Tag 11***  
 > Selbstständiges Arbeiten an LB1
+
+> ***Tag 12***  
+> Selbstständiges Arbeiten an LB1
