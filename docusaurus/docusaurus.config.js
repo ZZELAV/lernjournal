@@ -67,17 +67,17 @@ const config = {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Doku',
+            label: 'Doku 📖',
           },
           {
             to: '/appendix/',
-            label: 'Appendix',
+            label: 'Appendix 📚',
             position: 'left',
             activeBaseRegex: `/appendix/`,
           },
           {
             to: '/docs/tags/',
-            label: 'Tags',
+            label: 'Tags 🔎',
             position: 'left',
           },
           {
