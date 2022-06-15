@@ -76,6 +76,11 @@ const config = {
             activeBaseRegex: `/appendix/`,
           },
           {
+            to: '/docs/tags/',
+            label: 'Tags',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/ZZELAV/lernjournal',
             position: 'right',
             className: 'header-github-link',
@@ -130,6 +135,10 @@ const config = {
               {
                 label: 'Appendix',
                 to: '/appendix',
+              },
+              {
+                label: 'Tags',
+                to: '/docs/tags',
               }
             ]
           },
