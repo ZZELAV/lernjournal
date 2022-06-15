@@ -14,3 +14,11 @@ pagination_next: null
 [M226B](/docs/M226B)
 
 [M239](/docs/M239)
+
+<!--
+DEPLOY PAGE:
+
+1. git push
+2. npm run deploy
+3. docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper (in Git Bash)
+-->
