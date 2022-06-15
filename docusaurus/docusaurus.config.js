@@ -164,7 +164,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v4.14.1<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
+        copyright: `v4.14.2<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,
