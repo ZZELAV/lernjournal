@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9153],{7108:function(a){a.exports=JSON.parse('{"name":"Tag 11","permalink":"/lernjournal/docs/tags/tag-11","docs":[{"id":"M126/tag-0011","title":"Tag 11","description":"Cisco ASA 5505","permalink":"/lernjournal/docs/M126/tag-0011"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

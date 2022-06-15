@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[5504],{7185:function(a){a.exports=JSON.parse('{"name":"Polymorphie","permalink":"/lernjournal/docs/tags/polymorphie","docs":[{"id":"M226B/tag-0001","title":"Tag 1","description":"1 Polymorphie","permalink":"/lernjournal/docs/M226B/tag-0001"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

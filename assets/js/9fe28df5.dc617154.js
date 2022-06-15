@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9421],{5157:function(s){s.exports=JSON.parse('{"name":"Spring-Boot","permalink":"/lernjournal/docs/tags/spring-boot","docs":[{"id":"M226B/tag-0007","title":"Tag 7","description":"1 Recherche","permalink":"/lernjournal/docs/M226B/tag-0007"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

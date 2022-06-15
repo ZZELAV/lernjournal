@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7626],{8319:function(a){a.exports=JSON.parse('{"name":"REST-API","permalink":"/lernjournal/docs/tags/rest-api","docs":[{"id":"M226B/tag-0007","title":"Tag 7","description":"1 Recherche","permalink":"/lernjournal/docs/M226B/tag-0007"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

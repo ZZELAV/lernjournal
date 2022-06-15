@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7308],{9663:function(e){e.exports=JSON.parse('{"name":"PSDrive","permalink":"/lernjournal/docs/tags/ps-drive","docs":[{"id":"M122/tag-0004","title":"Tag 4","description":"1 \xdcbungen Drives (Laufwerke)","permalink":"/lernjournal/docs/M122/tag-0004"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);
