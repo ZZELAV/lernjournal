@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4687],{3124:function(a){a.exports=JSON.parse('{"name":"YAML","permalink":"/lernjournal/docs/tags/yaml","docs":[{"id":"M239/tag-0012","title":"Tag 12","description":"1 \xdcbung Docker","permalink":"/lernjournal/docs/M239/tag-0012"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);
