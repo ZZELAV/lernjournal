@@ -5,6 +5,10 @@ pagination_next: null
 
 # Appendix
 
+## M126
+
+[Lernjournal](/appendix/M126/lernjournal)
+
 ## M226B
 
 [UML](/appendix/M226B/UML)
