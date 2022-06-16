@@ -56,3 +56,5 @@ pagination_prev: null
 
 > ***Tag 14***  
 > Roline UPS Unterbruchsfreie Stromversorgung
+
+[Lernjournal als PDF](/img/m126/Lernjournal_Valentino_Panico_M126_v1.14.pdf)
