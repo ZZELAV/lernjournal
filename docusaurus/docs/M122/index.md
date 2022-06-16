@@ -50,3 +50,10 @@ pagination_prev: null
 
 > ***Tag 12***  
 > Arbeiten an AD-Projekt
+
+> ***Tag 13***  
+> Arbeiten an AD-Projekt
+
+> ***Tag 14***  
+> Zwischenprüfung  
+> Arbeiten an AD-Projekt
