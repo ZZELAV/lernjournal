@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9662],{1283:function(e){e.exports=JSON.parse('{"label":"Dienste","permalink":"/lernjournal/docs/tags/dienste","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M239/tag-0001","title":"Tag 1","description":"1 Repetitionsfragen","permalink":"/lernjournal/docs/M239/tag-0001"}]}')}}]);

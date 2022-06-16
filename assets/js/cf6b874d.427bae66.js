@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[464],{5747:function(e){e.exports=JSON.parse('{"name":"Security-Level","permalink":"/lernjournal/docs/tags/security-level","docs":[{"id":"M126/tag-0013","title":"Tag 13","description":"Cisco ASA 5505","permalink":"/lernjournal/docs/M126/tag-0013"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

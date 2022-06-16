@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[230],{8441:function(a){a.exports=JSON.parse('{"name":"Einf\xfchrung","permalink":"/lernjournal/docs/tags/einfuhrung","docs":[{"id":"M239/tag-0001","title":"Tag 1","description":"1 Repetitionsfragen","permalink":"/lernjournal/docs/M239/tag-0001"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

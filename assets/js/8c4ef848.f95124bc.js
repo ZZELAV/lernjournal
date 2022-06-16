@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4405],{3014:function(a){a.exports=JSON.parse('{"name":"WMI","permalink":"/lernjournal/docs/tags/wmi","docs":[{"id":"M122/tag-0006","title":"Tag 6","description":"1 Windows Management Instrumentation (WMI)","permalink":"/lernjournal/docs/M122/tag-0006"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

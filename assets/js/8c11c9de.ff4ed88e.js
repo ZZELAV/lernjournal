@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[3092],{320:function(a){a.exports=JSON.parse('{"label":"RIP","permalink":"/lernjournal/docs/tags/rip","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M126/tag-0001","title":"Tag 1","description":"Theorie zum Printing","permalink":"/lernjournal/docs/M126/tag-0001"}]}')}}]);

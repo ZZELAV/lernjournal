@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2769],{4380:function(a){a.exports=JSON.parse('{"label":"BIND","permalink":"/lernjournal/docs/tags/bind","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M239/tag-0003","title":"Tag 3","description":"1 BIND9 - DNS-Server","permalink":"/lernjournal/docs/M239/tag-0003"}]}')}}]);

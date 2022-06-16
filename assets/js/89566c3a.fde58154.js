@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2658],{3486:function(a){a.exports=JSON.parse('{"label":"UPS","permalink":"/lernjournal/docs/tags/ups","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M126/tag-0014","title":"Tag 14","description":"1 Was haben wir gemacht?","permalink":"/lernjournal/docs/M126/tag-0014"}]}')}}]);

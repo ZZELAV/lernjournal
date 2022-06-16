@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9193],{1109:function(s){s.exports=JSON.parse('{"name":"mod_status","permalink":"/lernjournal/docs/tags/mod-status","docs":[{"id":"M239/tag-0010","title":"Tag 10","description":"1 \xdcbung Monitoring","permalink":"/lernjournal/docs/M239/tag-0010"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

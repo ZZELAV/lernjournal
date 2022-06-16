@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[5803],{4854:function(s){s.exports=JSON.parse('{"label":"Selbsttest","permalink":"/lernjournal/docs/tags/selbsttest","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M226B/tag-0004","title":"Tag 4","description":"1 Beispiele","permalink":"/lernjournal/docs/M226B/tag-0004"}]}')}}]);

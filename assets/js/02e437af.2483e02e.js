@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9034],{4677:function(a){a.exports=JSON.parse('{"name":"Roline","permalink":"/lernjournal/docs/tags/roline","docs":[{"id":"M126/tag-0005","title":"Tag 5","description":"IP-Kamera Integration","permalink":"/lernjournal/docs/M126/tag-0005"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

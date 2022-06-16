@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8529],{8346:function(e){e.exports=JSON.parse('{"name":"Vererbung","permalink":"/lernjournal/docs/tags/vererbung","docs":[{"id":"M226B/tag-0001","title":"Tag 1","description":"1 Polymorphie","permalink":"/lernjournal/docs/M226B/tag-0001"}],"allTagsPath":"/lernjournal/docs/tags"}')}}]);

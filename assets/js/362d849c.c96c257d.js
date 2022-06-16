@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[6499],{2266:function(a){a.exports=JSON.parse('{"label":"Compro","permalink":"/lernjournal/docs/tags/compro","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M126/tag-0005","title":"Tag 5","description":"IP-Kamera Integration","permalink":"/lernjournal/docs/M126/tag-0005"}]}')}}]);
