@@ -159,7 +159,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v4.14.3<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
+        copyright: `v4.14.4<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,
