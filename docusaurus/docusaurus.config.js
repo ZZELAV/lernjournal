@@ -46,15 +46,19 @@ const config = {
         path: 'appendix',
         routeBasePath: 'appendix',
         sidebarPath: require.resolve('./sidebars.js'),
-      }, 
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      autoCollapseSidebarCategories: true,
-      hideableSidebar: true,
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         hideOnScroll: true,
         title: 'Lernjournal',
