@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4872],{9608:function(a){a.exports=JSON.parse('{"label":"PHP","permalink":"/lernjournal/docs/tags/php","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M239/tag-0007","title":"Tag 7","description":"Heute hatten wir die LB1","permalink":"/lernjournal/docs/M239/tag-0007"}]}')}}]);
