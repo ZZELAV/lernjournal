@@ -58,4 +58,7 @@ pagination_prev: null
 > ***Tag 14***  
 > Roline UPS Unterbruchsfreie Stromversorgung
 
+> ***Tag 15***  
+> Sophos XG Firewall
+
 [Lernjournal M126 (Appendix)](/appendix/M126/lernjournal)
