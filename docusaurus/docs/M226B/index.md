@@ -52,3 +52,6 @@ pagination_prev: null
 
 > ***Tag 14***  
 > Selbstständiges Arbeiten an LB1
+
+> ***Tag 15***  
+> Produkt-Präsentationen
