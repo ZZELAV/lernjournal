@@ -50,6 +50,16 @@ const config = {
     ],
   ],
 
+  i18n: {
+    defaultLocale: 'de',
+    locales: ['de', 'en'],
+    localeConfigs: {
+      de: {
+        htmlLang: 'de-CH',
+      },
+    },
+  },
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
