@@ -52,7 +52,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'de',
-    locales: ['de', 'en'],
+    locales: ['de'],
     localeConfigs: {
       de: {
         htmlLang: 'de-CH',
