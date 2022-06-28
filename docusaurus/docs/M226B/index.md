@@ -58,3 +58,5 @@ pagination_prev: null
 
 > [**Tag 16**](./tag-0016)  
 > Produkt-Präsentationen
+
+**Modul-Abschlussnote: 6.0**

@@ -62,3 +62,5 @@ pagination_prev: null
 
 > [**Tag 16**](./tag-0016)  
 > LB3
+
+**Modul-Abschlussnote: 6.0**

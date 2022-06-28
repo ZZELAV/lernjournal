@@ -65,3 +65,5 @@ pagination_prev: null
 > Sophos XG Firewall
 
 [Lernjournal M126 (Appendix)](/appendix/M126/lernjournal)
+
+**Modul-Abschlussnote: 5.5**
