@@ -7,10 +7,10 @@ pagination_next: null
 
 ## 4. Semester
 
-[**M122**](/docs/M122)
+[**M122**](/docs/M122/)
 
-[**M126**](/docs/M126)
+[**M126**](/docs/M126/)
 
-[**M226B**](/docs/M226B)
+[**M226B**](/docs/M226B/)
 
-[**M239**](/docs/M239)
+[**M239**](/docs/M239/)
