@@ -7,20 +7,20 @@ pagination_next: null
 
 ## M126
 
-[**Lernjournal**](/appendix/M126/lernjournal)
+[**Lernjournal**](/appendix/M126/lernjournal/)
 
 ## M226B
 
-[**UML**](/appendix/M226B/UML)
+[**UML**](/appendix/M226B/UML/)
 
 ## M239
 
-[**Apache Config**](/appendix/M239/apache_config)
+[**Apache Config**](/appendix/M239/apache_config/)
 
-[**Dienste steuern**](/appendix/M239/dienste_steuern)
+[**Dienste steuern**](/appendix/M239/dienste_steuern/)
 
-[**Docker**](/appendix/M239/docker)
+[**Docker**](/appendix/M239/docker/)
 
-[**docker-compose Konfiguration**](/appendix/M239/docker_compose_konfigurationen)
+[**docker-compose Konfiguration**](/appendix/M239/docker_compose_konfigurationen/)
 
-[**FQDN**](/appendix/M239/fqdn)
+[**FQDN**](/appendix/M239/fqdn/)
