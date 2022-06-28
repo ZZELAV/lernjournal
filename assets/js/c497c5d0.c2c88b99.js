@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[5030],{1759:function(e){e.exports=JSON.parse('{"label":"curl","permalink":"/lernjournal/docs/tags/curl","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M239/tag-0005","title":"Tag 5","description":"1 Security bei Webservern","permalink":"/lernjournal/docs/M239/tag-0005"}]}')}}]);
