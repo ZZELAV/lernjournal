@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7817],{8646:function(s){s.exports=JSON.parse('{"label":"Sophos XG","permalink":"/lernjournal/docs/tags/sophos-xg","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M126/tag-0015","title":"Tag 15","description":"","permalink":"/lernjournal/docs/M126/tag-0015"}]}')}}]);
