@@ -64,3 +64,5 @@ pagination_prev: null
 
 > [**Tag 16**](./tag-0016)  
 > Präsentation AD-Projekt
+
+**Modul-Abschlussnote: 6.0**
