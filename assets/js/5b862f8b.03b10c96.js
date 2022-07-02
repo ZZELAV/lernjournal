@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4839],{362:function(a){a.exports=JSON.parse('{"label":"WebDAV","permalink":"/lernjournal/docs/tags/web-dav","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M126/tag-0008","title":"Tag 8","description":"Synology NAS Integration","permalink":"/lernjournal/docs/M126/tag-0008"}]}')}}]);

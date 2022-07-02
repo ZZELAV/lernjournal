@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[960],{5517:function(a){a.exports=JSON.parse('{"label":"Alias","permalink":"/lernjournal/docs/tags/alias","allTagsPath":"/lernjournal/docs/tags","count":1,"items":[{"id":"M122/tag-0005","title":"Tag 5","description":"1 \xdcbungen Alias","permalink":"/lernjournal/docs/M122/tag-0005"}]}')}}]);
