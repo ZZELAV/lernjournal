@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Lernjournal',
   tagline: 'Lernjournal von Valentino Panico 🦕',
-  url: 'https://zzelav.github.io',
-  baseUrl: '/lernjournal/',
+  url: 'https://lernjournal.valentino-panico.ch',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -173,7 +173,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v4.16.2<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
+        copyright: `v4.16.3<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,
