@@ -74,6 +74,19 @@ h6 {
 html[data-theme="dark"] .header-github-link:before {
   background: url(/data/github_logo_dark.svg) no-repeat;
 }
+.header-moodle-link:hover {
+  opacity: 0.6;
+}
+.header-moodle-link:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/data/moodle_logo_light.svg) no-repeat;
+}
+html[data-theme="dark"] .header-moodle-link:before {
+  background: url(/data/moodle_logo_dark.svg) no-repeat;
+}
 
 /* SIDEBAR */
 

@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Title',
-  tagline: 'Docusaurus Tagline',
-  url: 'https://example.com',
+  title: 'Lernjournal',
+  tagline: 'Lernjournal von Valentino Panico 🦕',
+  url: 'https://lernjournal.valentino-panico.ch',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'data/favicon.ico',
   organizationName: 'zzelav', // github user name
-  projectName: 'docusaurus-template', // repo name
+  projectName: 'lernjournal', // repo name
   trailingSlash: false,
 
   i18n: {
@@ -44,17 +44,17 @@ const config = {
     ],
   ],
 
-  // plugins: [
-  //   [
-  //     '@docusaurus/plugin-content-docs',
-  //     {
-  //       id: 'appendix',
-  //       path: 'appendix',
-  //       routeBasePath: 'appendix',
-  //       sidebarPath: require.resolve('./sidebars.js'),
-  //     },
-  //   ],
-  // ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'appendix',
+        path: 'appendix',
+        routeBasePath: 'appendix',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -68,10 +68,10 @@ const config = {
         },
       },
       navbar: {
-        title: 'Title',
+        title: 'Lernjournal',
         logo: {
           alt: 'Logo',
-          src: 'data/logo.svg',
+          src: 'data/logo.png',
         },
         items: [
           {
@@ -80,27 +80,45 @@ const config = {
             position: 'left',
             label: 'Doku 📖',
           },
-          // {
-          //   to: '/appendix/',
-          //   label: 'Appendix 📚',
-          //   position: 'left',
-          //   activeBaseRegex: `/appendix/`,
-          // },
+          {
+            to: '/appendix/',
+            label: 'Appendix 📚',
+            position: 'left',
+            activeBaseRegex: `/appendix/`,
+          },
           {
             to: '/docs/tags/',
             label: 'Tags 🔎',
             position: 'left',
           },
           {
-            href: 'https://github.com/ZZELAV/docusaurus-template',
+            href: 'https://github.com/ZZELAV/lernjournal',
             position: 'right',
             className: 'header-github-link',
+          },
+          {
+            href: 'https://moodle.bztf.ch/my/',
+            position: 'right',
+            className: 'header-moodle-link',
           },
         ],
       },
       footer: {
         style: 'light',
         links: [
+          {
+            title: 'Aktuelle Module',
+            items: [
+              {
+                label: 'M133',
+                to: '/docs/M133/',
+              },
+              {
+                label: 'M143',
+                to: '/docs/M143/',
+              },
+            ],
+          },
           {
             title: 'Links',
             items: [
@@ -112,22 +130,26 @@ const config = {
                 label: 'Doku',
                 to: '/docs',
               },
-              // {
-              //   label: 'Appendix',
-              //   to: '/appendix',
-              // },
+              {
+                label: 'Appendix',
+                to: '/appendix',
+              },
               {
                 label: 'Tags',
                 to: '/docs/tags',
-              },
-            ],
+              }
+            ]
           },
           {
             title: ' ',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/ZZELAV/docusaurus-template',
+                href: 'https://github.com/ZZELAV/lernjournal',
+              },
+              {
+                label: 'Moodle',
+                href: 'https://moodle.bztf.ch/my/',
               },
               {
                 label: 'Markdown Guide',
@@ -140,13 +162,13 @@ const config = {
             ],
           },
         ],
-        copyright: `v0.0<br>Copyright © ${new Date().getFullYear()} Docusaurus-template, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v5.14<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         // https://prismjs.com/#supported-languages
-        // additionalLanguages: [],
+        additionalLanguages: ['powershell', 'java', 'php', 'docker', 'markup'],
       },
     }),
 };

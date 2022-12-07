@@ -5,7 +5,7 @@ services:
     container_name: docusaurus
     build: .
     ports:
-      - 3000:3000
+      - 9999:9999
     volumes:
       - ./:/app
       - ignore:/app/node_modules/

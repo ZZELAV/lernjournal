@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Title',
-    Svg: require('@site/static/data/undraw_docusaurus_mountain.svg').default,
+    title: 'Aktuelles Semester',
+    Svg: require('@site/static/data/undraw_new_entries_re_cffr.svg').default,
     description: (
       <>
-        Description
+        Wir sind aktuell im 5. Semester
       </>
     ),
   },
   {
-    title: 'Title',
-    Svg: require('@site/static/data/undraw_docusaurus_tree.svg').default,
+    title: 'Lernjournal',
+    Svg: require('@site/static/data/undraw_key_points_re_u903.svg').default,
     description: (
       <>
-        Description
+        Dieses Lernjournal wird geführt, um das Erlernte festzuhalten.
       </>
     ),
   },
   {
-    title: 'Title',
-    Svg: require('@site/static/data/undraw_docusaurus_react.svg').default,
+    title: 'Aktuelle Module',
+    Svg: require('@site/static/data/undraw_file_manager_re_ms29.svg').default,
     description: (
       <>
-        Description
+        M133, M143
       </>
     ),
   },

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="510px" preserveAspectRatio="none" style="width:1308px;height:510px;background:#FFFFFF;" version="1.1" viewBox="0 0 1308 510" width="1308px" zoomAndPan="magnify"><defs><filter height="300%" id="f1navjzgiz0hb6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b41fde97e12d0cc2cbf10be6df1cd073]
+cluster options--><polygon fill="#FFFFFF" filter="url(#f1navjzgiz0hb6)" points="16,350,146,350,153,372.2969,321,372.2969,321,482,16,482,16,350" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="153" y1="372.2969" y2="372.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="20" y="364.9951">Optionen bind9</text><!--MD5=[8a509646a725e4b29ac3346bf48b9d0c]
+cluster local--><polygon fill="#FFFFFF" filter="url(#f1navjzgiz0hb6)" points="511.5,100,771.5,100,778.5,122.2969,794.5,122.2969,794.5,232,511.5,232,511.5,100" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="511.5" x2="778.5" y1="122.2969" y2="122.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="254" x="515.5" y="114.9951">Zonen einbinden und aktivieren</text><!--MD5=[7ff7b7bea73d815785532cd0666bba02]
+cluster forward--><polygon fill="#FFFFFF" filter="url(#f1navjzgiz0hb6)" points="35.5,6,216.5,6,223.5,28.2969,301.5,28.2969,301.5,138,35.5,138,35.5,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="35.5" x2="223.5" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="39.5" y="20.9951">Forward-Lookup Zone</text><!--MD5=[d65e4fbd8c272a341a5384a34dd2fe27]
+cluster reverse--><polygon fill="#FFFFFF" filter="url(#f1navjzgiz0hb6)" points="54,178,232,178,239,200.2969,283,200.2969,283,310,54,310,54,178" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="54" x2="239" y1="200.2969" y2="200.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="172" x="58" y="192.9951">Reverse-Lookup Zone</text><!--MD5=[2e99d7dde80220004679b0c5f8bd5219]
+entity /etc/bind/named.conf.options--><rect fill="#FEFECE" filter="url(#f1navjzgiz0hb6)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="257" x="40" y="393"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="277" y="398"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="275" y="400"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="275" y="404"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="55" y="425.9951">/etc/bind/named.conf.options</text><!--MD5=[b0ed2d327a06840a463bcdbac72d495d]
+entity /etc/bind/named.conf.local--><rect fill="#FEFECE" filter="url(#f1navjzgiz0hb6)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="235" x="535.5" y="143"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="750.5" y="148"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="748.5" y="150"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="748.5" y="154"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="550.5" y="175.9951">/etc/bind/named.conf.local</text><!--MD5=[3642bc91582485d24eb58480c89a2c68]
+entity /etc/bind/db.DOMAIN.CH--><rect fill="#FEFECE" filter="url(#f1navjzgiz0hb6)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="218" x="59.5" y="68"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="257.5" y="73"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="255.5" y="75"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="255.5" y="79"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="74.5" y="100.9951">/etc/bind/db.DOMAIN.CH</text><!--MD5=[160a2cdb35daec38126668c23944ad7f]
+entity /etc/bind/db.0.0.10--><rect fill="#FEFECE" filter="url(#f1navjzgiz0hb6)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="181" x="78" y="221"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="239" y="226"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="237" y="228"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="237" y="232"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="93" y="253.9951">/etc/bind/db.0.0.10</text><path d="M492.5,446.5 L492.5,501.8984 L813.5,501.8984 L813.5,456.5 L803.5,446.5 L492.5,446.5 " fill="#FBFB77" filter="url(#f1navjzgiz0hb6)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M803.5,446.5 L803.5,456.5 L813.5,456.5 L803.5,446.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="300" x="498.5" y="463.5669">Beinhaltet Konfiguration zum gesamten Server</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="248" x="498.5" y="478.6997">- Forwarders (an wen leiten wir weiter)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="498.5" y="493.8325">- Security-Einstellungen</text><path d="M907,188.5 L907,259.0313 L1299,259.0313 L1299,198.5 L1289,188.5 L907,188.5 " fill="#FBFB77" filter="url(#f1navjzgiz0hb6)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1289,188.5 L1289,198.5 L1299,198.5 L1289,188.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="913" y="205.5669">In dieser Datei werden die aktiven Zonen</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="913" y="220.6997">eingebunden. D.h. hier werden die Forward- und Reverse-</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="314" x="913" y="235.8325">zonendateien eingebunden und mit den richtigen</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="913" y="250.9653">Optionen aktiviert</text><path d="M488.5,13 L488.5,53.2656 L817.5,53.2656 L817.5,23 L807.5,13 L488.5,13 " fill="#FBFB77" filter="url(#f1navjzgiz0hb6)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M807.5,13 L807.5,23 L817.5,23 L807.5,13 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="494.5" y="30.0669">Beinhaltet alle Einträge zu einer Zone, die</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="308" x="494.5" y="45.1997">das Mapping von Namen zu IP-Adresse auflösen</text><path d="M460,282 L460,322.2656 L846,322.2656 L846,292 L836,282 L460,282 " fill="#FBFB77" filter="url(#f1navjzgiz0hb6)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M836,282 L836,292 L846,292 L836,282 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="466" y="299.0669">Beinhaltet alle Einträge zu einer Zone, die</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="365" x="466" y="314.1997">das Mapping von IP-Adresse zu Namen-Adresse auflösen</text><!--MD5=[5be12605d09191ca49af2b38086327be]
+link options to GMN1072327--><path d="M322.4063,474 C322.9428,474 323.48,474 324.0179,474 C326.1692,474 328.3313,474 330.5031,474 C347.8775,474 365.8785,474 384.0847,474 C420.4971,474 457.7298,474 492.41,474 " fill="none" id="options-GMN1072327" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[01903b86fd82457639bdbf7a3d03f01a]
+link local to GMN1072330--><path d="M794.9722,224 C795.4108,224 795.8499,224 796.2894,224 C803.3221,224 810.4793,224 817.7275,224 C846.7201,224 877.1683,224 906.924,224 " fill="none" id="local-GMN1072330" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[fc77d7bd41f26d71f97087be8e91f08d]
+link forward to GMN1072333--><path d="M302.8172,33 C311.0226,33 319.4378,33 328.0116,33 C345.1593,33 362.9415,33 380.9486,33 C416.9629,33 453.877,33 488.414,33 " fill="none" id="forward-GMN1072333" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[fd4981a7783fa715a53396cc3317c328]
+link reverse to GMN1072336--><path d="M283.9299,302 C284.387,302 284.845,302 285.3038,302 C286.2214,302 287.1424,302 288.0666,302 C295.4605,302 303.0638,302 310.8352,302 C326.378,302 342.5928,302 359.1477,302 C392.2575,302 426.7278,302 459.903,302 " fill="none" id="reverse-GMN1072336" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[dc23a917da0c6b4bf787dcac260fb865]
+link /etc/bind/db.DOMAIN.CH to /etc/bind/named.conf.local--><path d="M277.782,107.831 C352.684,119.474 452.455,134.983 530.141,147.058 " fill="none" id="/etc/bind/db.DOMAIN.CH-to-/etc/bind/named.conf.local" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="535.225,147.849,526.9467,142.5133,530.2844,147.0806,525.7172,150.4183,535.225,147.849" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="346" y="116.0669">eingebunden</text><!--MD5=[bb112055170ba49ca45d9959d3d4dce6]
+link /etc/bind/db.0.0.10 to /etc/bind/named.conf.local--><path d="M259.012,227.473 C316.38,217.082 392.479,203.671 460,193 C482.737,189.406 507.028,185.806 530.419,182.459 " fill="none" id="/etc/bind/db.0.0.10-to-/etc/bind/named.conf.local" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="535.396,181.749,525.9208,179.062,530.4463,182.4561,527.0521,186.9816,535.396,181.749" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="346" y="195.0669">eingebunden</text><!--MD5=[877e8bb1b523152bd4caa338ba90fe34]
+@startuml
+left to right direction
+
+package "Optionen bind9" as options {
+  [/etc/bind/named.conf.options] 
+}
+
+package "Zonen einbinden und aktivieren" as local {
+  [/etc/bind/named.conf.local] 
+}
+
+package "Forward-Lookup Zone" as forward {
+  [/etc/bind/db.DOMAIN.CH] 
+}
+
+package "Reverse-Lookup Zone" as reverse {
+  [/etc/bind/db.0.0.10] 
+}
+
+note right of options
+  Beinhaltet Konfiguration zum gesamten Server
+  - Forwarders (an wen leiten wir weiter)
+  - Security-Einstellungen
+end note
+
+note right of local
+  In dieser Datei werden die aktiven Zonen
+  eingebunden. D.h. hier werden die Forward- und Reverse-
+  zonendateien eingebunden und mit den richtigen 
+  Optionen aktiviert
+end note
+
+note right of forward
+  Beinhaltet alle Einträge zu einer Zone, die 
+  das Mapping von Namen zu IP-Adresse auflösen
+end note
+
+note right of reverse
+  Beinhaltet alle Einträge zu einer Zone, die 
+  das Mapping von IP-Adresse zu Namen-Adresse auflösen
+end note
+
+[/etc/bind/db.DOMAIN.CH] ..> [/etc/bind/named.conf.local] : "eingebunden"
+[/etc/bind/db.0.0.10] ..> [/etc/bind/named.conf.local] : "eingebunden"
+@enduml
+
+PlantUML version 1.2022.2beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
