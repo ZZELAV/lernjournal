@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[401],{7536:s=>{s.exports=JSON.parse('{"label":"Wechselschema","permalink":"/docs/tags/wechselschema","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M143/tag-0009","title":"Tag 9","description":"1 Wechselschema","permalink":"/docs/M143/tag-0009"}]}')}}]);

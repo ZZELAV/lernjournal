@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7377],{6063:s=>{s.exports=JSON.parse('{"label":"Einf\xfchrung","permalink":"/docs/tags/einfuhrung","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M239/tag-0001","title":"Tag 1","description":"1 Repetitionsfragen","permalink":"/docs/M239/tag-0001"}]}')}}]);

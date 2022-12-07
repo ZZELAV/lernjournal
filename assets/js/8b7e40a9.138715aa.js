@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[3348],{6364:s=>{s.exports=JSON.parse('{"label":"LPR","permalink":"/docs/tags/lpr","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M126/tag-0002","title":"Tag 2","description":"Drucken mit Linux","permalink":"/docs/M126/tag-0002"}]}')}}]);
