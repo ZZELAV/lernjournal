@@ -1,3 +1,23 @@
-# docusaurus-template
+# Lernjournal
 
-This is a [Docusaurus](https://docusaurus.io/) template with custom CSS, made by [@ZZELAV](https://github.com/ZZELAV)
+## Lernjournal von Valentino Panico 🦕
+
+### Links
+
+[Home](https://zzelav.github.io/lernjournal/)
+
+[Docs](https://zzelav.github.io/lernjournal/docs)
+
+[Appendix](https://zzelav.github.io/lernjournal/appendix)
+
+[Tags](https://zzelav.github.io/lernjournal/docs/tags)
+
+[GitHub](https://github.com/ZZELAV/lernjournal)
+
+[Moodle](https://moodle.bztf.ch/my/)
+
+[Markdown Guide](https://www.markdownguide.org/)
+
+[Docusaurus](https://docusaurus.io/)
+
+Copyright &copy; 2022 Lernjournal, Valentino Panico
