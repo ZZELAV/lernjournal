@@ -141,3 +141,23 @@ img[alt="logo_module"] {
 /* ######################################################################################################################################################### */
 
 /* CUSTOM/ARTICLES */
+
+img[alt="RAID"] {
+  height: 300px;
+  width: auto;
+}
+img[alt="PHPLogo"] {
+  width: 150px;
+}
+img[alt="RDX"],
+img[alt="Festplatte"],
+img[alt="Magnetband"],
+img[alt="CD-ROM"],
+img[alt="DVD"],
+img[alt="Blu-ray-Disc"],
+img[alt="Flash-Speichermedien"],
+img[alt="USB-Datenträger"],
+img[alt="MOD"] {
+  height: 150px;
+  width: auto;
+}
