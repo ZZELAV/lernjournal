@@ -107,7 +107,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Aktuelle Module',
+            title: '// Aktuelle Module',
             items: [
               {
                 label: 'M133',
@@ -120,7 +120,7 @@ const config = {
             ],
           },
           {
-            title: 'Links',
+            title: '// Links',
             items: [
               {
                 label: 'Home',
@@ -162,7 +162,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v5.14.1<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v5.15<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
