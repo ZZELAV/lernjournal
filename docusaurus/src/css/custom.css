@@ -87,6 +87,14 @@ html[data-theme="dark"] .header-github-link:before {
 html[data-theme="dark"] .header-moodle-link:before {
   background: url(/data/moodle_logo_dark.svg) no-repeat;
 }
+.hash-link::before {
+  content: "><" !important;
+  display: inline-block;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
 
 /* SIDEBAR */
 
