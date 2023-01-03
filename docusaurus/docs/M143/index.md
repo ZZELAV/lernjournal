@@ -61,3 +61,6 @@ pagination_prev: null
 > [**Tag 16**](./tag-0016.md)  
 > Repetitionsfragen Kap. 12/16  
 > Vorbereitung LB2
+
+> [**Tag 17**](./tag-0017.md)  
+> LB2
