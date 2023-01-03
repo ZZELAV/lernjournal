@@ -1,44 +1,44 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Lernjournal',
-  tagline: 'Lernjournal von Valentino Panico 🦕',
-  url: 'https://lernjournal.valentino-panico.ch',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'data/favicon.ico',
-  organizationName: 'zzelav', // github user name
-  projectName: 'lernjournal', // repo name
+  title: "Lernjournal",
+  tagline: "Lernjournal von Valentino Panico 🦕",
+  url: "https://lernjournal.valentino-panico.ch",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "data/favicon.ico",
+  organizationName: "zzelav", // github user name
+  projectName: "lernjournal", // repo name
   trailingSlash: false,
 
   i18n: {
-    defaultLocale: 'de',
-    locales: ['de'],
+    defaultLocale: "de",
+    locales: ["de"],
     localeConfigs: {
       de: {
-        htmlLang: 'de-CH',
+        htmlLang: "de-CH",
       },
     },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'docs',
-          path: 'docs',
+          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "docs",
+          path: "docs",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -46,12 +46,12 @@ const config = {
 
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'appendix',
-        path: 'appendix',
-        routeBasePath: 'appendix',
-        sidebarPath: require.resolve('./sidebars.js'),
+        id: "appendix",
+        path: "appendix",
+        routeBasePath: "appendix",
+        sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
   ],
@@ -68,107 +68,107 @@ const config = {
         },
       },
       navbar: {
-        title: 'Lernjournal',
+        title: "Lernjournal",
         logo: {
-          alt: 'Logo',
-          src: 'data/logo.png',
+          alt: "Logo",
+          src: "data/logo.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: 'Doku 📖',
+            type: "doc",
+            docId: "index",
+            position: "left",
+            label: "Doku 📖",
           },
           {
-            to: '/appendix/',
-            label: 'Appendix 📚',
-            position: 'left',
+            to: "/appendix/",
+            label: "Appendix 📚",
+            position: "left",
             activeBaseRegex: `/appendix/`,
           },
           {
-            to: '/docs/tags/',
-            label: 'Tags 🔎',
-            position: 'left',
+            to: "/docs/tags/",
+            label: "Tags 🔎",
+            position: "left",
           },
           {
-            href: 'https://github.com/ZZELAV/lernjournal',
-            position: 'right',
-            className: 'header-github-link',
+            href: "https://github.com/ZZELAV/lernjournal",
+            position: "right",
+            className: "header-github-link",
           },
           {
-            href: 'https://moodle.bztf.ch/my/',
-            position: 'right',
-            className: 'header-moodle-link',
+            href: "https://moodle.bztf.ch/my/",
+            position: "right",
+            className: "header-moodle-link",
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            title: '// Aktuelle Module',
+            title: "// Aktuelle Module",
             items: [
               {
-                label: 'M133',
-                to: '/docs/M133/',
+                label: "M133",
+                to: "/docs/M133/",
               },
               {
-                label: 'M143',
-                to: '/docs/M143/',
+                label: "M143",
+                to: "/docs/M143/",
               },
             ],
           },
           {
-            title: '// Links',
+            title: "// Links",
             items: [
               {
-                label: 'Home',
-                to: '/',
+                label: "Home",
+                to: "/",
               },
               {
-                label: 'Doku',
-                to: '/docs',
+                label: "Doku",
+                to: "/docs",
               },
               {
-                label: 'Appendix',
-                to: '/appendix',
+                label: "Appendix",
+                to: "/appendix",
               },
               {
-                label: 'Tags',
-                to: '/docs/tags',
-              }
-            ]
+                label: "Tags",
+                to: "/docs/tags",
+              },
+            ],
           },
           {
-            title: ' ',
+            title: " ",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/ZZELAV/lernjournal',
+                label: "GitHub",
+                href: "https://github.com/ZZELAV/lernjournal",
               },
               {
-                label: 'Moodle',
-                href: 'https://moodle.bztf.ch/my/',
+                label: "Moodle",
+                href: "https://moodle.bztf.ch/my/",
               },
               {
-                label: 'Markdown Guide',
-                href: 'https://www.markdownguide.org/',
+                label: "Markdown Guide",
+                href: "https://www.markdownguide.org/",
               },
               {
-                label: 'Docusaurus',
-                href: 'https://docusaurus.io/',
+                label: "Docusaurus",
+                href: "https://docusaurus.io/",
               },
             ],
           },
         ],
-        copyright: `v5.16<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v5.17<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         // https://prismjs.com/#supported-languages
-        additionalLanguages: ['powershell', 'java', 'php', 'docker', 'markup'],
+        additionalLanguages: ["powershell", "java", "php", "docker", "markup"],
       },
     }),
 };
