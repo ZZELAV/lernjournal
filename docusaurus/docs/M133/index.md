@@ -14,7 +14,7 @@ pagination_prev: null
 
 > [**Tag 2**](./tag-0002.md)  
 > Rechnen mit Variablen  
-> $_GET und $_POST  
+> $\_GET und $\_POST  
 > Arrays
 
 > [**Tag 3**](./tag-0003.md)  
@@ -66,4 +66,7 @@ pagination_prev: null
 > LB1 / LB2
 
 > [**Tag 16**](./tag-0016.md)  
+> LB1 / LB2
+
+> [**Tag 17**](./tag-0017.md)  
 > LB1 / LB2
