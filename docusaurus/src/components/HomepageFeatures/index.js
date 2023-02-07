@@ -1,40 +1,30 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Aktuelles Semester',
-    Svg: require('@site/static/data/undraw_new_entries_re_cffr.svg').default,
+    title: "Aktuelles Semester",
+    Svg: require("@site/static/data/undraw_new_entries_re_cffr.svg").default,
+    description: <>Wir sind aktuell im 6. Semester</>,
+  },
+  {
+    title: "Lernjournal",
+    Svg: require("@site/static/data/undraw_key_points_re_u903.svg").default,
     description: (
-      <>
-        Wir sind aktuell im 5. Semester
-      </>
+      <>Dieses Lernjournal wird geführt, um das Erlernte festzuhalten.</>
     ),
   },
   {
-    title: 'Lernjournal',
-    Svg: require('@site/static/data/undraw_key_points_re_u903.svg').default,
-    description: (
-      <>
-        Dieses Lernjournal wird geführt, um das Erlernte festzuhalten.
-      </>
-    ),
-  },
-  {
-    title: 'Aktuelle Module',
-    Svg: require('@site/static/data/undraw_file_manager_re_ms29.svg').default,
-    description: (
-      <>
-        M133, M143
-      </>
-    ),
+    title: "Aktuelle Module",
+    Svg: require("@site/static/data/undraw_file_manager_re_ms29.svg").default,
+    description: <>M141, M306</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

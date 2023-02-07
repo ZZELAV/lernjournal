@@ -110,12 +110,12 @@ const config = {
             title: "// Aktuelle Module",
             items: [
               {
-                label: "M133",
-                to: "/docs/M133/",
+                label: "M141",
+                to: "/docs/M141/",
               },
               {
-                label: "M143",
-                to: "/docs/M143/",
+                label: "M306",
+                to: "/docs/M306/",
               },
             ],
           },
