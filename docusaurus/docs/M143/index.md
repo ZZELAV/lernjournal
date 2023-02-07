@@ -64,3 +64,5 @@ pagination_prev: null
 
 > [**Tag 17**](./tag-0017.md)  
 > LB2
+
+**Modul-Abschlussnote: 5.5**
