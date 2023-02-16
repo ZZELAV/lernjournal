@@ -12,6 +12,11 @@ pagination_prev: null
 > SQL DDL  
 > SQL DML
 
+> [**Tag 2**](./tag-0002.md)  
+> ACID  
+> BASE  
+> CAP
+
 Zusätzliche Inhalte:
 
 - [Prüfungsvorbereitung LB1](/appendix/M141/pruefungsvorbereitung-lb1)
