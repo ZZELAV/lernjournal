@@ -19,6 +19,7 @@
   --ifm-code-font-size: 90%;
   --ifm-code-border-radius: 0;
   --ifm-alert-border-radius: 0;
+  --ifm-toc-border-color: transparent !important;
   --ifm-font-family-base: "Roboto", sans-serif;
   --ifm-font-family-monospace: "Roboto Mono", monospace;
   --ifm-font-color-footer: #7b7f8a;
