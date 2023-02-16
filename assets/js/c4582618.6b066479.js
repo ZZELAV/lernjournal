@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9795],{5080:s=>{s.exports=JSON.parse('{"label":"IT Kleinprojekt","permalink":"/docs/tags/it-kleinprojekt","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0001","title":"Tag 1","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0001"}]}')}}]);
