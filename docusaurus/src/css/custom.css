@@ -99,8 +99,9 @@ html[data-theme="dark"] .header-moodle-link:before {
 
 /* SIDEBAR */
 
-.menu li {
-  margin-right: 8px;
+.menu__list-item-collapsible,
+.menu__link {
+  border-radius: 0;
 }
 
 /* MAIN */
