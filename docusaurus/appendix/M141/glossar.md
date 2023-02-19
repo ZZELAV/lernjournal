@@ -6,14 +6,22 @@ sidebar_position: 1
 
 | Begriff | Definition |
 | --- | --- |
-| DBMS | Datenbankmanagementsystem, erstellen und verwalten von Datenbanken, Beispiel: MySQL, MongoDB |
-| SQL | Structured Query Language, Datenbankabfragesprache für relationale Datenbanken |
-| SQL DDL | SQL Data Definition Language, erstellen/ändern Datenstruktur |
-| SQL DML | SQL Data Manipulation Language, Daten bearbeiten in Datenbank |
+| ACID | Atomicity (Atomarität), Consistency (Konsistenz), Isolation (Isolation) und Durability (Dauerhaftigkeit); Regelt die Verarbeitung von Transaktionen in DBMS; [Mehr Infos](/docs/M141/tag-0002#11-beschreiben-sie-in-eigenen-worten-die-abkürzung-acid) |
+| BASE | Basically Available Soft state Eventual Cosistency; erhöhte Verfügbarkeit und Schnelligkeit durch Verzichtung auf komplette Konsistenz |
+| DBMS | Datenbankmanagementsystem; erstellen und verwalten von Datenbanken; Beispiel: MySQL, MongoDB |
+| RDBMS | Relationales DBMS; Beispiele: MySQL, PostgreSQL, MS SQL Server |
+| SQL | Structured Query Language; Datenbankabfragesprache für relationale Datenbanken |
+| SQL DDL | SQL Data Definition Language; erstellen/ändern Datenstruktur |
+| SQL DML | SQL Data Manipulation Language; Daten bearbeiten in Datenbank |
+| Transaktion | Verhindern einen inkonsistenten Zustand in einer Datenbank |
 
 <!-- https://sortmylist.com/
+ACID
+BASE
 DBMS
+RDBMS
 SQL
 SQL DDL
 SQL DML
+Transaktion
 -->
