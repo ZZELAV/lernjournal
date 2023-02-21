@@ -37,6 +37,7 @@ const config = {
           routeBasePath: "docs",
           path: "docs",
         },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
