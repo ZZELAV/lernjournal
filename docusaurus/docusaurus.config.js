@@ -171,6 +171,22 @@ const config = {
         additionalLanguages: ["powershell", "java", "php", "docker", "markup"],
       },
     }),
+  themes: [
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        indexBlog: false,
+        indexPages: true,
+        docsRouteBasePath: ["/docs", "/appendix"],
+        language: ["de", "en"],
+        hashed: true,
+        explicitSearchResultPath: true,
+      }),
+    ],
+  ],
 };
 
 module.exports = config;
