@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[297],{8694:s=>{s.exports=JSON.parse('{"label":"UPSMON PRO","permalink":"/docs/tags/upsmon-pro","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M126/tag-0014","title":"Tag 14","description":"1 Was haben wir gemacht?","permalink":"/docs/M126/tag-0014"}]}')}}]);

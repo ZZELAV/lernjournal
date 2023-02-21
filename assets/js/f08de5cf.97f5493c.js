@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[1623],{39154:s=>{s.exports=JSON.parse('{"label":"Datenschutz","permalink":"/docs/tags/datenschutz","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M143/tag-0001","title":"Tag 1","description":"1 Datensicherung","permalink":"/docs/M143/tag-0001"}]}')}}]);

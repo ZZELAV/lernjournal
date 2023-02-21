@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[5797],{40344:s=>{s.exports=JSON.parse('{"label":"GDI","permalink":"/docs/tags/gdi","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M126/tag-0001","title":"Tag 1","description":"Theorie zum Printing","permalink":"/docs/M126/tag-0001"}]}')}}]);

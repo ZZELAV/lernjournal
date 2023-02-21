@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[6322],{19520:s=>{s.exports=JSON.parse('{"label":"Arrays","permalink":"/docs/tags/arrays","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M133/tag-0002","title":"Tag 2","description":"Lernportfolio M133 - Tag 2","permalink":"/docs/M133/tag-0002"}]}')}}]);

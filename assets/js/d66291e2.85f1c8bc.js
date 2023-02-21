@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4695],{2788:s=>{s.exports=JSON.parse('{"label":"PDL","permalink":"/docs/tags/pdl","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M126/tag-0001","title":"Tag 1","description":"Theorie zum Printing","permalink":"/docs/M126/tag-0001"}]}')}}]);

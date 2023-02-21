@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7785],{2428:s=>{s.exports=JSON.parse('{"label":"YAML","permalink":"/docs/tags/yaml","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M239/tag-0012","title":"Tag 12","description":"1 \xdcbung Docker","permalink":"/docs/M239/tag-0012"}]}')}}]);
