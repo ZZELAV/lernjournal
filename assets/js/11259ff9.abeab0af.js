@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7916],{7797:u=>{u.exports=JSON.parse('{"label":"Moduljournal","permalink":"/docs/tags/moduljournal","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M431/moduljournal","title":"Moduljournal","description":"PDF","permalink":"/docs/M431/moduljournal"}]}')}}]);

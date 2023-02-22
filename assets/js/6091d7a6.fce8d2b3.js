@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[57],{32556:s=>{s.exports=JSON.parse('{"label":"Buch Kapitel 1-4","permalink":"/docs/tags/buch-kapitel-1-4","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M100/buch-kapitel-1-4","title":"Buch Kapitel 1-4","description":"ZIP DOWNLOAD","permalink":"/docs/M100/buch-kapitel-1-4"}]}')}}]);

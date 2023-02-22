@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9303],{1228:e=>{e.exports=JSON.parse('{"label":"Factsheet","permalink":"/docs/tags/factsheet","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M117/factsheet","title":"Factsheet","description":"Factsheet","permalink":"/docs/M117/factsheet"}]}')}}]);

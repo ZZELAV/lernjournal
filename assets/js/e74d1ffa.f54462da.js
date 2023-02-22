@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2756],{50682:s=>{s.exports=JSON.parse('{"label":"Vorstellung Marp","permalink":"/docs/tags/vorstellung-marp","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M214/vorstellung-marp","title":"Vorstellung Marp","description":"ZIP DOWNLOAD","permalink":"/docs/M214/vorstellung-marp"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2420],{98207:a=>{a.exports=JSON.parse('{"label":"Aufgaben","permalink":"/docs/tags/aufgaben","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M431/aufgaben","title":"Aufgaben","description":"ZIP DOWNLOAD","permalink":"/docs/M431/aufgaben"}]}')}}]);

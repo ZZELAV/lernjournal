@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8480],{27494:e=>{e.exports=JSON.parse('{"label":"Excel","permalink":"/docs/tags/excel","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M301/excel","title":"Excel","description":"ZIP DOWNLOAD","permalink":"/docs/M301/excel"}]}')}}]);
