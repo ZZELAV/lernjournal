@@ -17,6 +17,9 @@ pagination_prev: null
 > BASE  
 > CAP
 
+> [**Tag 3**](./tag-0003.md)  
+> MySQL Konfiguration
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
