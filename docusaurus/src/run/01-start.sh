@@ -12,7 +12,7 @@ if [ "${STATUS}" = "active" ]; then
 else
     echo -e "\033[0;33m::: 'docker.service' is not running. Starting..."
     systemctl start docker.service
-    echo -e "\033[0;36m::: 'docker.service' started successfully."
+    echo -e "\033[0;32m::: 'docker.service' started successfully."
 fi
 
 echo -e "\033[0;36m::: Starting docker container as daemon..."
