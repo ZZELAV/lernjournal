@@ -20,4 +20,4 @@ docker compose up -d > /dev/null 2>&1
 echo -e "\033[0;32m::: Daemon started.\n"
 
 echo -e "\033[0;36m::: To check the docker logs run 'docker compose logs -f'"
-echo -e "\033[0;36m::: To stop the application run 'src/run/stop.sh'."
+echo -e "\033[0;36m::: To stop the application run 'src/run/01-stop.sh'."
