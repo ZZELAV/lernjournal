@@ -17,6 +17,8 @@ pagination_next: null
 
 [**Prüfungsvorbereitung LB2**](./M141/pruefungsvorbereitung-lb2.md)
 
+[**System variables**](./M141/system-variables.md)
+
 ## M143
 
 [**Art. 9 VDSG (Stand: 1. Dezember 2010)**](./M143/art_9_vdsg.md)
