@@ -63,3 +63,20 @@ Möchte man alle diese Probleme umgehen, geht das sehr auf die Kosten der Perfor
 Wird eine neue Linux-Version veröffentlicht, wird die Software auch geupdated. Somit muss bei einer neuen Linux-Version gegebenfalls auch eine andere MySQL-Version, als auf dem alten System installiert werden.
 
 Eine Übersicht der MySQL-Version mit Zusammenhang der Ubuntu Version, kann [hier](https://packages.ubuntu.com/search?keywords=mysql-server) gefunden werden.
+
+## 6 Erklären Sie was Storage Engines in MySQL sind. Benennen und beschreiben Sie die zwei wichtigsten Exemplare
+
+Storage Engines legen fest, wie die Daten gespeichert und organisiert werden.
+
+Die meisten SE's implementieren eine Art von Datenhaltung.
+
+- flat files (einfache Text-Files)
+- Hash-Tables
+- Tree-Strukturen
+- Heaps
+
+[Tag 3 - Kapitel 2.1.1](/docs/M141/tag-0003#211-storage-engines-bei-mysql)
+
+## 7 Wo die Daten bei MySQL effektiv gespreichert werden
+
+Wo die Daten gespeichert werden kann in der Datei `/etc/mysql/mysql.conf.d/mysqld.cnf` festgelegt werden. Dafür muss die Variable `datadir` angepasst werden. Standardmässig ist das `/var/lib/mysql`.

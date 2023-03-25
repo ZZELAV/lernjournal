@@ -20,6 +20,10 @@ pagination_prev: null
 > [**Tag 3**](./tag-0003.md)  
 > MySQL Konfiguration
 
+> [**Tag 4**](./tag-0004.md)  
+> MySQL Konfiguration  
+> Indexierung und Datentypen
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
