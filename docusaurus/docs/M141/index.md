@@ -24,6 +24,10 @@ pagination_prev: null
 > MySQL Konfiguration  
 > Indexierung und Datentypen
 
+> [**Tag 5**](./tag-0005.md)  
+> Import und Export  
+> Backup, Restore und Migration
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)

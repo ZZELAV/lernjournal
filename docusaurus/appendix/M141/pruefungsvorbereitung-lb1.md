@@ -70,3 +70,42 @@ Bei `PERSIST` und `GLOBAL` ist ein Ausloggen nötig.
 ## 6 Protokollierung langsamer Abfragen aktivieren
 
 [Tag 4 - Kapitel 2.1.2](/docs/M141/tag-0004#212-server-betrieb)
+
+## 7 Umsetzung Referenzielle Integrität
+
+Um die referenzielle Integrität umzusetzen, muss per Foreign Keys auf Primary Keys referenziert werden.
+
+```sql
+CREATE TABLE categories(
+   cat_id int not null auto_increment primary key,
+   cat_name varchar(255) not null,
+   cat_description text
+) ENGINE=InnoDB;
+
+CREATE TABLE products(
+   prd_id int not null auto_increment primary key,
+   prd_name varchar(355) not null,
+   prd_price decimal,
+   cat_id int not null,
+   FOREIGN KEY fk_cat(cat_id) REFERENCES categories(cat_id) -- Referenz setzen
+        ON UPDATE CASCADE -- was passieren soll wenn die Referenz geupdated wird
+        ON DELETE RESTRICT -- was passieren soll wenn die Referenz gelöscht wird
+)ENGINE=InnoDB;
+```
+
+Hier werden zwei Tabellen erstellt `categories` und `products`. Der FK wird `fk_cat` benannt und verlinkt `cat_id` der beiden Tabellen. `ON UPDATE` definiert was bei einem `UPDATE` passieren soll. `ON DELETE` definiert was bei `DELETE` passieren soll.
+
+Folgende Konfiguration sind möglich:
+
+`RESTRICT` / `NO ACTION`:  
+==> Änderung auf referenzierten Tabelle nicht erlaubt
+
+`CASCADE`:  
+==> Änderung auf referenzierten Tabelle werden synchronisiert
+
+`SET NULL`:  
+==> Bei Änderung auf referenzierten Tabelle, wird der FK's auf der Child-Tabelle auf `NULL` gesetzt
+
+## 8 Indexierungstypen aufgrund Anforderungen umsetzen
+
+## 9 Datentypen sinngemäss richtig anwenden
