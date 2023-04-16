@@ -106,6 +106,10 @@ Folgend ein paar Beispielaufgabenstellungen:
 
 Ablauf von Import und Export kann bei [Tag 5](/docs/M141/tag-0005) gefunden werden.
 
+## 11 Verschiedene Backupvarianten vergleichen und argumentieren
+
+## 12 Verschiedene Migrationsvorgehen erläutern und vergleichen können
+
 ---
 
 Quellen:

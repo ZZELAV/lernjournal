@@ -117,3 +117,7 @@ Folgende Konfiguration sind möglich:
 ## 10 Auftrag : Import und Export von verschiedenen Datentypen
 
 [Tag 5](/docs/M141/tag-0005)
+
+## 11 Auftrag : Durchführung von Backup/Restore (nicht PITR)
+
+## 12 Auftrag : Migration von Daten durchführen
