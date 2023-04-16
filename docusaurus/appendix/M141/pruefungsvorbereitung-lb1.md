@@ -108,4 +108,12 @@ Folgende Konfiguration sind möglich:
 
 ## 8 Indexierungstypen aufgrund Anforderungen umsetzen
 
+[Tag 4 - Kapitel 2.1.4](/docs/M141/tag-0004#214-indexierung)
+
 ## 9 Datentypen sinngemäss richtig anwenden
+
+[Tag 4 - Kapitel 2.1.4](/docs/M141/tag-0004#213-datentypen--attribute)
+
+## 10 Auftrag : Import und Export von verschiedenen Datentypen
+
+[Tag 5](/docs/M141/tag-0005)

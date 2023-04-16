@@ -80,3 +80,34 @@ Die meisten SE's implementieren eine Art von Datenhaltung.
 ## 7 Wo die Daten bei MySQL effektiv gespreichert werden
 
 Wo die Daten gespeichert werden kann in der Datei `/etc/mysql/mysql.conf.d/mysqld.cnf` festgelegt werden. Dafür muss die Variable `datadir` angepasst werden. Standardmässig ist das `/var/lib/mysql`.
+
+## 8 Erklären Sie FK und PK Indexierungen
+
+Beide Indexierungen dienen dazu, die Leistung des DBMS zu steigern und um sicherzustellen, dass die Daten konsistent und korrekt sind. Beide können auf eine oder mehrere Spalten angewendet werden.
+
+Die Fremdschlüssel-Indexierung wird genutzt, damit die Daten auf einer anderen Tabelle referenziert werden können. Somit können Verknüpfungen zwischen Tabellen erstellt werden.
+
+Die Primärschlüssel-Indexierung wird genutzt, damit sichergestellt werden kann, dass die Daten eindeutig identifizierbar sind.
+
+![Beispiel PK und FK](/data/m141/pk_fk.gif)
+
+## 9 Erklären Sie die die Datentypen JSON, ENUM, XY und machen Sie ein Beispiel für die Anwendung dieser Datenypen
+
+[Tag 4 - Kapitel 2.1.3, Frage 2 & 3](/docs/M141/tag-0004#213-datentypen--attribute)
+
+## 10 Vorgehen erklären beim Import und Export / Verschiedene Aufgabenstellungen vorformuliert
+
+Der Import und Export von Daten in und aus einer MySQL-Datenbank ist ein wichtiger Bestandteil der Datenbankverwaltung.
+
+Folgend ein paar Beispielaufgabenstellungen:
+
+- Migration von Datenbank(server): Es können Daten in Form von SQL-Dateien exportiert und diese auf der Zielseite importiert werden.
+- Sicherung von Daten: Backups einer Datenbank können am Einfachsten mit SQL-Dateien gemacht werden, sind aber auch mit CSV-Dateien möglich.
+
+Ablauf von Import und Export kann bei [Tag 5](/docs/M141/tag-0005) gefunden werden.
+
+---
+
+Quellen:
+
+- https://www.thecrazyprogrammer.com/wp-content/uploads/2019/04/Difference-between-Primary-Key-and-Foreign-Key-1024x672.gif
