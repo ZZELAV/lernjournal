@@ -125,3 +125,7 @@ Folgende Konfiguration sind möglich:
 ## 12 Auftrag : Migration von Daten durchführen
 
 [Tag 5 - Kapitel 2.5](/docs/M141/tag-0005#25-migration-auf-entfernten-server)
+
+## 13 Auftrag : Beispielapplikation installieren und Datenauslesen
+
+[Tag 7 - Kapitel 1.3](/docs/M141/tag-0007#13-dokumentieren-sie-ihre-arbeiten-für-die-installation-der-etherpad-applikation)
