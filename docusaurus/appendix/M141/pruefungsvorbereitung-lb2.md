@@ -108,7 +108,61 @@ Ablauf von Import und Export kann bei [Tag 5](/docs/M141/tag-0005) gefunden werd
 
 ## 11 Verschiedene Backupvarianten vergleichen und argumentieren
 
+1. Full:  
+   Bei einer vollständigen Sicherung werden alle Daten in der Datenbank gesichert. Dies ist die einfachste Art von Backup, da alle Daten gesichert werden und eine Wiederherstellung relativ einfach ist. Der Nachteil einer vollständigen Sicherung besteht jedoch darin, dass sie viel Zeit und Speicherplatz in Anspruch nehmen kann, insbesondere wenn die Datenbank sehr groß ist.
+
+2. Incremental:  
+   Eine inkrementelle Sicherung sichert nur die Änderungen seit dem letzten Backup. Dadurch können Backups schneller durchgeführt werden, und es wird weniger Speicherplatz benötigt. Der Nachteil besteht darin, dass die Wiederherstellung komplizierter sein kann, da mehrere inkrementelle Backups wiederhergestellt werden müssen.
+
+3. Differential:  
+   Ein Differential Backup sichert nur die Änderungen seit der letzten vollständigen Sicherung. Dadurch ist die Wiederherstellung schneller und einfacher als bei einer inkrementellen Sicherung, da nur zwei Backups wiederhergestellt werden müssen. Der Nachteil besteht jedoch darin, dass mehr Speicherplatz benötigt wird als bei einer inkrementellen Sicherung.
+
+4. Online:  
+   Ein Online-Backup sichert die Datenbank, während sie aktiv ist und keine Ausfallzeiten verursacht. Der Vorteil besteht darin, dass es keine Ausfallzeiten gibt und das Backup automatisch erfolgt. Der Nachteil besteht darin, dass es möglicherweise langsamer ist als eine Offline-Sicherung, da die Datenbank gleichzeitig gelesen und geschrieben werden muss.
+
+5. Offsite:  
+   Ein Offsite-Backup wird auf einem anderen Server oder in der Cloud gespeichert. Der Vorteil besteht darin, dass die Daten im Falle eines Serverausfalls oder einer Katastrophe sicher sind. Der Nachteil besteht darin, dass es möglicherweise langsamer ist als ein Backup auf einem lokalen Server, und es können zusätzliche Kosten für die Speicherung anfallen.
+
 ## 12 Verschiedene Migrationsvorgehen erläutern und vergleichen können
+
+Migration per SSH und ZIP-Datei:
+
+```sql
+# Dump erstellen und direkt zippen
+mysqldump --single-transaction -u root -p DB | gzip -9 > /tmp/DUMP_DB.sql.gz
+
+# Files auf einen anderen Server kopieren, meistens über SSH
+scp /tmp/DUMP_DB.sql.gz root@ANDERERSERVERIP:/tmp/
+
+# Auf dem Zielserver neue NEUEDB erstellen
+
+# Direktes Entzippen und importieren
+gunzip < DUMP_DB.sql.gz | mysql -u root -p NEUEDB
+```
+
+Dieses Vorgehen braucht viel Zeit und Speicherplatz, da zuerst auf dem lokalen Server ein ZIP erstellt wird.
+
+Direkte Verbindung:
+
+```sql
+# Export von local to remote:
+mysqldump --single-transaction -u user -pPASS dbname -h localhost | mysql -u root -pPASS -h 192.168.1.1 dbname
+
+# Import von Remote to local:
+mysqldump --single-transaction -u user -pPASS dbname -h 192.168.1.1 | mysql -u root -pPASS -h localhost dbname
+```
+
+Hier gibt es zwei Möglichkeiten. Die erste wäre, man ist auf dem aktuellen Server verbunden und macht einen `mysqldump` per PIPE auf den neuen Server. Die zweite wäre, man ist auf dem neuem Server verbunden und holt sich mit `mysqldump` die Datenbank auf den neuen Server.
+
+Der Nachteil von diesem Vorgehen ist, dass der TCP-Port 3306 (sofern Default) geöffnet sein muss und die Übertragung unverschlüsselt ist.
+
+SSH und PIPE:
+
+```sql
+mysqldump --single-transaction -u root -pPASS DBNAME | ssh user@SERVER2 'mysql -u USER -pPASS NEWDB'
+```
+
+Hier ist man auf dem aktuellen Server verbunden und führt einen `mysqldump` aus. Dieser wird per PIPE an eine SSH-Verbindung übergeben. Über diese Verbidung ist die Übertragung verschlüsselt.
 
 ---
 

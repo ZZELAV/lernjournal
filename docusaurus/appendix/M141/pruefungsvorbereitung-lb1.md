@@ -120,4 +120,8 @@ Folgende Konfiguration sind möglich:
 
 ## 11 Auftrag : Durchführung von Backup/Restore (nicht PITR)
 
+[Tag 5 - Kapitel 2.3](/docs/M141/tag-0005#23-lokales-backup)
+
 ## 12 Auftrag : Migration von Daten durchführen
+
+[Tag 5 - Kapitel 2.5](/docs/M141/tag-0005#25-migration-auf-entfernten-server)
