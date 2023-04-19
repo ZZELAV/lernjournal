@@ -168,6 +168,54 @@ Hier ist man auf dem aktuellen Server verbunden und führt einen `mysqldump` aus
 
 [Tag 7 - Kapitel 1.5](/docs/M141/tag-0007#15-diskutieren-sie-die-security-angriffsvektoren-anhand-der-applikation-etherpad)
 
+## 14 Beispiel-Importdatei auf Stored Procedures, Views und Triggers interpretieren
+
+[Tag 8 - Kapitel 1.1.2](/docs/M141/tag-0008#112-sps-views-triggers-importcreate-befehle-dokumentiert)
+
+## 15 Stored Procedures: Sinn, Anwendung und Syntax erläutern
+
+Stored Procedures sind gespeicherte Prozeduren, die in der Datenbank gespeichert sind und von Benutzern aufgerufen werden können, um Daten in der Datenbank zu verarbeiten oder abzurufen. Stored Procedures sind ähnlich wie Programme, die innerhalb der Datenbank ausgeführt werden.
+
+```sql
+CREATE PROCEDURE delete_customer(IN customer_id INT)
+BEGIN
+    DELETE FROM customers WHERE id = customer_id;
+END;
+```
+
+```sql
+CALL delete_customer(1234);
+```
+
+## 16 Views: Sinn, Anwendung und Syntax erläutern
+
+Views sind virtuelle Tabellen in einer Datenbank, die auf der Grundlage von Abfragen erstellt werden. Views sind eine wichtige Funktion in einer Datenbank, da sie es Benutzern ermöglichen, Daten aus einer oder mehreren Tabellen auf eine spezifische Weise abzurufen und zu analysieren, ohne dass die zugrunde liegenden Tabellen verändert werden müssen. Views sind hilfreich, wenn ein komplexer `JOIN` vereinfacht werden soll.
+
+```sql
+CREATE VIEW customer_order_count AS
+SELECT customers.id, customers.name, COUNT(orders.id) AS order_count
+FROM customers
+LEFT JOIN orders ON customers.id = orders.customer_id
+GROUP BY customers.id;
+```
+
+```sql
+SELECT * FROM customer_order_count;
+```
+
+## 17 Triggers: Sinn, Anwendung und Syntax erläutern
+
+Triggers werden automatisch ausgeführt, wenn bestimmte Ereignisse in einer Datenbank auftreten. Sie können auf verschiedene Arten konfiguriert werden, um bestimmte Aktionen auszulösen, wie z.B. das Aktualisieren von Daten in einer Tabelle oder das Senden einer E-Mail-Benachrichtigung.
+
+```sql
+CREATE TRIGGER update_customer_order_count
+AFTER INSERT ON orders
+FOR EACH ROW
+BEGIN
+    UPDATE customers SET order_count = order_count + 1 WHERE id = NEW.customer_id;
+END;
+```
+
 ---
 
 Quellen:

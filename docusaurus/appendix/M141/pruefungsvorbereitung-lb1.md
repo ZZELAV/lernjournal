@@ -129,3 +129,23 @@ Folgende Konfiguration sind möglich:
 ## 13 Auftrag : Beispielapplikation installieren und Datenauslesen
 
 [Tag 7 - Kapitel 1.3](/docs/M141/tag-0007#13-dokumentieren-sie-ihre-arbeiten-für-die-installation-der-etherpad-applikation)
+
+## 14 Auftrag : Stored Procedures importieren, anzeigen, überarbeiten
+
+[Tag 8 - Kapitel 1.1.1](/docs/M141/tag-0008#111-sps-views-triggers-anzeigen-und-anwenden)
+
+## 15 Auftrag : Stored Procedures anwenden
+
+[Tag 8 - Kapitel 1.1.1](/docs/M141/tag-0008#111-sps-views-triggers-anzeigen-und-anwenden)
+
+## 16 Auftrag : Views importieren, anzeigen, überarbeiten
+
+[Tag 8 - Kapitel 1.1.1](/docs/M141/tag-0008#111-sps-views-triggers-anzeigen-und-anwenden)
+
+## 17 Auftrag : Views anwenden
+
+[Tag 8 - Kapitel 1.1.1](/docs/M141/tag-0008#111-sps-views-triggers-anzeigen-und-anwenden)
+
+## 18 Auftrag : Triggers importieren, anzeigen
+
+[Tag 8 - Kapitel 1.1.1](/docs/M141/tag-0008#111-sps-views-triggers-anzeigen-und-anwenden)
