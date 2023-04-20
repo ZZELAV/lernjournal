@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2934],{53526:s=>{s.exports=JSON.parse('{"label":"Stored Procedures","permalink":"/docs/tags/stored-procedures","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0008","title":"Tag 8","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0008"}]}')}}]);
