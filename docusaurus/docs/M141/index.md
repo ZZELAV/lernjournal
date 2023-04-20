@@ -34,6 +34,11 @@ pagination_prev: null
 > [**Tag 7**](./tag-0007.md)  
 > Backup, Restore und Migration
 
+> [**Tag 8**](./tag-0008.md)  
+> Stored Procedure  
+> Views  
+> Triggers
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
