@@ -216,6 +216,10 @@ BEGIN
 END;
 ```
 
+## 18 Auftrag : (Theorie) Schlechte Query - verbessern Sie die Performance
+
+[Tag 9 - Kapitel 1.1](/docs/M141/tag-0009#11-kurzzusammenfassung-zu-den-performance-tips)
+
 ---
 
 Quellen:

@@ -149,3 +149,11 @@ Folgende Konfiguration sind möglich:
 ## 18 Auftrag : Triggers importieren, anzeigen
 
 [Tag 8 - Kapitel 1.1.1](/docs/M141/tag-0008#111-sps-views-triggers-anzeigen-und-anwenden)
+
+## 19 Auftrag : (Theorie) Schlechte Query - verbessern Sie die Performance
+
+[Tag 9 - Kapitel 1.1](/docs/M141/tag-0009#11-kurzzusammenfassung-zu-den-performance-tips)
+
+## 20 Auftrag : (Praxis) Schlechte Query - verbessern Sie die Performance
+
+[Tag 9 - Kapitel 1.2](/docs/M141/tag-0009#12-übungsdokumentation-zu-performance-und-indexing)

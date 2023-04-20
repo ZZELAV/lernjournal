@@ -39,6 +39,10 @@ pagination_prev: null
 > Views  
 > Triggers
 
+> [**Tag 9**](./tag-0009.md)  
+> Performance  
+> Indexing
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
