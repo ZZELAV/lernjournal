@@ -169,7 +169,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         // https://prismjs.com/#supported-languages
-        additionalLanguages: ["powershell", "java", "php", "docker", "markup"],
+        additionalLanguages: [
+          "powershell",
+          "java",
+          "php",
+          "docker",
+          "markup",
+          "mongodb",
+        ],
       },
     }),
 };
