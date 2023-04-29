@@ -157,3 +157,33 @@ Folgende Konfiguration sind möglich:
 ## 20 Auftrag : (Praxis) Schlechte Query - verbessern Sie die Performance
 
 [Tag 9 - Kapitel 1.2](/docs/M141/tag-0009#12-übungsdokumentation-zu-performance-und-indexing)
+
+## 21 Auftrag : (Theorie) - Vor- und Nachteile von MongoDB erläutern
+
+Vorteile:
+
+- **Skalierbarkeit**: MongoDB ist sehr skalierbar, was es ermöglicht gute Cluster zu bauen.
+- **Replikation**: Daten können schnell und einfach auf mehrere Systeme kopiert werden.
+- **Speicherung**: Auch grosse Daten können schnell gespeichert und gelesen werden.
+- **Benutzerfreundlichkeit**: Einfach zu lernen und logisch aufgebaut.
+
+Nachteile:
+
+- **Speicherverbrauch**: MongoDB braucht vergleichsweise viel Speicher.
+- **Stored Procedures**: existieren nicht
+
+## 22 Auftrag : (Theorie) - Begrifflichkeiten von MongoDB vs. MySQL
+
+[Tag 10 - Kapitel 1.1](/docs/M141/tag-0010#begriffe-rundum-mongodb)
+
+## 23 Auftrag : (Praxis) - Installation von MongoDB
+
+[Tag 10 - Kapitel 1.1.3](/docs/M141/tag-0010#113-prozess-der-installation-wiewas-habe-ich-es-installiert)
+
+## 24 Auftrag : (Praxis) - Konfigurationsauftrag von MongoDB (Binding anpassen, Verzeichnisse anpassen)
+
+---
+
+Quellen:
+
+- https://www.ionos.de/digitalguide/hosting/hosting-technik/mysql-vs-mongodb/

@@ -220,6 +220,14 @@ END;
 
 [Tag 9 - Kapitel 1.1](/docs/M141/tag-0009#11-kurzzusammenfassung-zu-den-performance-tips)
 
+## 19 Auftrag : (Theorie) - Vor- und Nachteile von MongoDB erläutern
+
+[Prüfungsvorbereitung LB1](./pruefungsvorbereitung-lb1.md#21-auftrag--theorie---vor--und-nachteile-von-mongodb-erläutern)
+
+## 20 Auftrag : (Theorie) - Begrifflichkeiten von MongoDB vs. MySQL
+
+[Prüfungsvorbereitung LB1](./pruefungsvorbereitung-lb1.md#22-auftrag--theorie---begrifflichkeiten-von-mongodb-vs-mysql)
+
 ---
 
 Quellen:
