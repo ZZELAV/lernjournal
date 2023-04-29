@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[290],{96768:s=>{s.exports=JSON.parse('{"label":"MongoDB","permalink":"/docs/tags/mongo-db","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0010","title":"Tag 10","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0010"}]}')}}]);
