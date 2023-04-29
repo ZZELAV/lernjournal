@@ -43,6 +43,9 @@ pagination_prev: null
 > Performance  
 > Indexing
 
+> [**Tag 10**](./tag-0010.md)  
+> Installation MongoDB
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
