@@ -46,6 +46,9 @@ pagination_prev: null
 > [**Tag 10**](./tag-0010.md)  
 > Installation MongoDB
 
+> [**Tag 11**](./tag-0011.md)  
+> Erste Schritte mit MongoDB
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
