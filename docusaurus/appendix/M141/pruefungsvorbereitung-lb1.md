@@ -182,6 +182,8 @@ Nachteile:
 
 ## 24 Auftrag : (Praxis) - Konfigurationsauftrag von MongoDB (Binding anpassen, Verzeichnisse anpassen)
 
+[Tag 10 - Kapitel 1.2](/docs/M141/tag-0010#12-dokumentation-zur-übung-erste-schritte-mit-mongodb)
+
 ---
 
 Quellen:
