@@ -176,6 +176,7 @@ const config = {
           "docker",
           "markup",
           "mongodb",
+          "json",
         ],
       },
     }),
