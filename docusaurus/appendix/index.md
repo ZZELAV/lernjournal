@@ -13,6 +13,12 @@ pagination_next: null
 
 [**Glossar**](./M141/glossar.md)
 
+[**Classic Models Ohne Index**](./M141/classicModelsOhneIndex.md)
+
+[**Hyper-V deaktivieren**](./M141/hyperv-deaktivieren.md)
+
+[**MongoDB Dependencies**](./M141/mongodb-dependencies.md)
+
 [**Prüfungsvorbereitung LB1**](./M141/pruefungsvorbereitung-lb1.md)
 
 [**Prüfungsvorbereitung LB2**](./M141/pruefungsvorbereitung-lb2.md)

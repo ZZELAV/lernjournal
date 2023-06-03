@@ -184,6 +184,20 @@ Nachteile:
 
 [Tag 10 - Kapitel 1.2](/docs/M141/tag-0010#12-dokumentation-zur-übung-erste-schritte-mit-mongodb)
 
+## 25 Auftrag : Import und Export von verschiedenen Datensätzen
+
+[Tag 11 - Kapitel 1.1.1](/docs/M141/tag-0011#111-import)
+
+Export:
+
+```mongodb
+mongoexport --db=cities --collection=cities --out=export_cities.json
+```
+
+## 26 Auftrag : Backup und Restore durchführen
+
+[Tag 11 - Kapitel 1.1.5](/docs//M141/tag-0011#115-backup-und-restore)
+
 ---
 
 Quellen:

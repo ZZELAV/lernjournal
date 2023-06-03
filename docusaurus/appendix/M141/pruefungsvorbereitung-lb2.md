@@ -228,6 +228,12 @@ END;
 
 [Prüfungsvorbereitung LB1](./pruefungsvorbereitung-lb1.md#22-auftrag--theorie---begrifflichkeiten-von-mongodb-vs-mysql)
 
+## 21 Vorgehen erklären beim Import und Export
+
+Für Import kann der Befehl `mongoimport` genutzt werden. Der Befehl für den Export heisst `mongoexport`.
+
+Die wichtigsten Flags für beide Befehle sind `--db=<DATABASE>` und `--collection=<COLLECTION>`. Für den Import muss die Flag `--file=<FILE>` genutzt werden. Hier wird das zu importierende File definiert werden. Das Export-Flag dazu ist `--out=<FILE>`.
+
 ---
 
 Quellen:
