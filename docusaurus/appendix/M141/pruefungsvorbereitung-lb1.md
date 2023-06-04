@@ -198,6 +198,10 @@ mongoexport --db=cities --collection=cities --out=export_cities.json
 
 [Tag 11 - Kapitel 1.1.5](/docs//M141/tag-0011#115-backup-und-restore)
 
+## 27 Inbetriebnahme (URI - Benutzer) einer vorgegebenen Applikation (inkl. Anpassungen/Korrekturen)
+
+[Tag 12 - Kapitel 1.1](/docs/M141/tag-0012#11-dokumentation-zur-übung-anwendung-von-db-benutzern-und-uris)
+
 ---
 
 Quellen:

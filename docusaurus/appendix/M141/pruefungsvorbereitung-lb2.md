@@ -234,6 +234,21 @@ Für Import kann der Befehl `mongoimport` genutzt werden. Der Befehl für den Ex
 
 Die wichtigsten Flags für beide Befehle sind `--db=<DATABASE>` und `--collection=<COLLECTION>`. Für den Import muss die Flag `--file=<FILE>` genutzt werden. Hier wird das zu importierende File definiert werden. Das Export-Flag dazu ist `--out=<FILE>`.
 
+## 22 Erläutern Sie das Konzept der Benutzerverwaltung in MongoDB
+
+Es gibt zwei Built-in Roles in MongoDB. Einmal für Administratoren und für normale Benutzer. Mit `db.createUser()` auf der Datenbank `admin` können neue Benutzer erstellt werden. Bei der Erstellung kann konfiguriert werden, auf welche Datenbank(en) der User Zugriff hat.
+
+## 23 Erläutern Sie das Konzept der URIs (in Bezug auf Datenbankmanagementsysteme und MongoDB im Speziellen)
+
+Mit URIs (Uniform Ressource Identifiers) können verschiedene Ressourcen genau identifiziert werden. Das wohl bekannteste URI ist die Web-URI. In MongoDB können URIs genutzt werden, um auf eine MongoDB-Instanz zuzugreifen. Somit kann man Benutzername, Passwort, Host, Port und Datenbank in einem String angegeben.
+
+```
+mongodb://[username:password@]host1[:host1][,hostN[:portN]][/database]
+
+# Beispiel
+mongodb://admin:admin@localhost:27017/admin
+```
+
 ---
 
 Quellen:
