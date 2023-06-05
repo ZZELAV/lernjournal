@@ -53,6 +53,9 @@ pagination_prev: null
 > [**Tag 12**](./tag-0012.md)  
 > Anwendung von DB-Benutzern und URIs
 
+> [**Tag 13**](./tag-0013.md)  
+> Design von MongoDB-Schemas, Indexierung, Cluster
+
 Zusätzliche Inhalte:
 
 - [Glossar](/appendix/M141/glossar)
