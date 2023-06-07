@@ -163,7 +163,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v6.12<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v6.13<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
