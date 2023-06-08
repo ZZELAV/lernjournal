@@ -249,6 +249,60 @@ mongodb://[username:password@]host1[:host1][,hostN[:portN]][/database]
 mongodb://admin:admin@localhost:27017/admin
 ```
 
+## 24 Erklären Sie eine Design-Umsetzung anhand von einem praktischen Beispiel
+
+Um die Datenbank für eine Applikation perfekt zu nutzen (bzw. zu konfigieren) können die verschiedenen Designs genutzt werden. Dabei können die folgenden Fragen beim Entscheiden des korrekten Designs helfen:
+
+- Ist unsere Applikation lese- und/oder schreibintensiv?
+- Welchen Datensätze werden oft gemeinsam aufgerufen?
+- Welche Performance-Anforderungen haben wir an die Applikation?
+- In welcher Form werden unsere Daten (vermutlich) anwachsen? Sich verändern?
+
+**Beispiel**
+
+Applikation: Blog-Seite
+
+Eine Blog-Seite besteht aus verschiedenen Entitäten (Benutzer, Posts, Kommentare, Kategorien, etc.). In einem RDBMS würde jede Entität seine Tabelle bekommen. In MongoDB stellt man dies am Besten mit Nested Documents dar.
+
+```json
+{
+  "post_title": "Mein erster Blogpost",
+  "post_text": "Das ist der Text meines ersten Blogposts...",
+  "post_date": "2023-06-08",
+  "author": "Max Mustermann",
+  "comments": [
+    {
+      "comment_text": "Toller Blogpost!",
+      "comment_date": "2023-06-09",
+      "comment_author": "Erika Musterfrau"
+    },
+    {
+      "comment_text": "Ich stimme zu, sehr informativ.",
+      "comment_date": "2023-06-10",
+      "comment_author": "Otto Normalverbraucher"
+    }
+  ]
+}
+```
+
+Dieses Design hat den Vorteil, dass alle Informationen zu diesem Blog-Post in einem Document vorhanden sind. Allerdings kommt es drauf an, ob auf den Blogs viele Kommentare geschrieben werden. In diesem Fall würde dieses Design nicht viel machen, da für jeden Kommentar das gesamte Document aktualisiert werden muss, was zu Leistungsproblemen führen kann. Daher würde es mehr Sinn machen, die Kommentare als eigene Documents zu erstellen und diese per `Referencing` auf das Blog-Document zu zeigen.
+
+## 25 Eräutern Sie die Begriffe Sharding und Replication
+
+Beim Sharding werden die Daten auf mehrere Server verteilt. Somit wird die Last verteilt und die Leistung auf den einzelnen Nodes verbessert. Damit die Shards zusammen arbeiten können, braucht es einen Config-Servert, der weiss wo, welche Daten liegen.
+
+Replication ist das Kopieren auf mehrere Server. Dies erhöht die Datenverfügbarkeit und -sicherheit. Dafür muss ein primärer Node definiert werden, welcher die Schreiboperationen durchführt. Diese Änderungen gibt er dann an die (mehreren) sekundären Server weiter. Die sekundären Server werden für die Leseoperationen genutzt.
+
+## 26 Erläutern Sie das Vorgehen bei `schlechter Query Performance` (`explain()` und Indexierung)
+
+Wenn Abfragen lange und langsam sind, können diese mit `explain()` analysiert werden.
+
+```mongodb
+db.collection.explain("executionStats").find( { field: "value" } )
+```
+
+In [dieser](/docs/M141/tag-0013#124-testen) Übung kann ein Beispiel gefunden werden. Dabei sind die drei Punkte `executionTimeMillis`, `totalDocsExamined` und `stage` wichtig zu beachten.
+
 ---
 
 Quellen:

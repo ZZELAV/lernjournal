@@ -202,6 +202,23 @@ mongoexport --db=cities --collection=cities --out=export_cities.json
 
 [Tag 12 - Kapitel 1.1](/docs/M141/tag-0012#11-dokumentation-zur-übung-anwendung-von-db-benutzern-und-uris)
 
+## 28 Umsetzung Referenzielle Integrität mit MongoDB
+
+[Tag 13 - Kapitel 1.1.2](/docs/M141/tag-0013#112-embedding-vs-referencing)
+
+## 29 Design-Umsetzung von einem einfachen Beispiel (Regeln korrekt anwenden)
+
+[Tag 13 - Kapitel 1.1](/docs/M141/tag-0013#11-best-practices-beim-datenbankdesign)
+
+## 30 Umsetzung von Sharding und Replication
+
+[Tag 13 - Kapitel 1.3](/docs/M141/tag-0013#13-übung-replication)  
+[Tag 13 - Kapitel 1.4](/docs/M141/tag-0013#14-übung-sharding)
+
+## 31 Umsetzung von Indexierungen anhand von einer Praxisaufgabe (inkl. `explain()`)
+
+[Tag 13 - Kapitel 1.2](/docs/M141/tag-0013#12-übung-indexierung)
+
 ---
 
 Quellen:
