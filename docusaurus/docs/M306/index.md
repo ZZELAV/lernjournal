@@ -41,3 +41,8 @@ pagination_prev: null
 > Make or Buy  
 > Nutzwertanalyse  
 > Konzeptbericht
+
+> [**Tag 9**](./tag-0009.md)  
+> Lieferobjekte  
+> Projektstrukturplan  
+> Machbarkeit prüfen
