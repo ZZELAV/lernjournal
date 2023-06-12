@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9893],{13098:s=>{s.exports=JSON.parse('{"label":"Risiken","permalink":"/docs/tags/risiken","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0005","title":"Tag 5","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0005"}]}')}}]);

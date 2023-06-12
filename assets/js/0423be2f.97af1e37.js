@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[64146],{29868:s=>{s.exports=JSON.parse('{"label":"Pflichtenheft","permalink":"/docs/tags/pflichtenheft","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0007","title":"Tag 7","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0007"}]}')}}]);

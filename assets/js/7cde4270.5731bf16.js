@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[63665],{67680:a=>{a.exports=JSON.parse('{"label":"Containervirtualisierung","permalink":"/docs/tags/containervirtualisierung","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M133/tag-0001","title":"Tag 1","description":"Lernportfolio M133 - Tag 1","permalink":"/docs/M133/tag-0001"}]}')}}]);

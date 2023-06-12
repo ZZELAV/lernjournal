@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[24969],{58315:s=>{s.exports=JSON.parse('{"label":"Business-Case","permalink":"/docs/tags/business-case","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0004","title":"Tag 4","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0004"}]}')}}]);

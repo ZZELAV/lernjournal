@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[91981],{33182:s=>{s.exports=JSON.parse('{"label":"USV","permalink":"/docs/tags/usv","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M143/tag-0011","title":"Tag 11","description":"1 Factsheet USV","permalink":"/docs/M143/tag-0011"}]}')}}]);

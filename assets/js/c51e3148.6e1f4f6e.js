@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[74944],{24333:s=>{s.exports=JSON.parse('{"label":"mod_status","permalink":"/docs/tags/mod-status","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M239/tag-0010","title":"Tag 10","description":"1 \xdcbung Monitoring","permalink":"/docs/M239/tag-0010"}]}')}}]);

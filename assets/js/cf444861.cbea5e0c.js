@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[29791],{81953:s=>{s.exports=JSON.parse('{"label":"DSM","permalink":"/docs/tags/dsm","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M126/tag-0007","title":"Tag 7","description":"Synology NAS Integration","permalink":"/docs/M126/tag-0007"}]}')}}]);

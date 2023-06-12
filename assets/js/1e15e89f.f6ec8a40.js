@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[881],{47557:s=>{s.exports=JSON.parse('{"label":"Planung","permalink":"/docs/tags/planung","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0006","title":"Tag 6","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0006"}]}')}}]);

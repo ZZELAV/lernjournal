@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[28658],{11129:s=>{s.exports=JSON.parse('{"label":"HTML Book","permalink":"/docs/tags/html-book","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M104/html-book","title":"HTML Book","description":"ZIP DOWNLOAD","permalink":"/docs/M104/html-book"}]}')}}]);

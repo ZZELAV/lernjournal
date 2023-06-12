@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7761],{35790:e=>{e.exports=JSON.parse('{"label":"Auftr\xe4ge","permalink":"/docs/tags/auftrage","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M117/auftraege","title":"Auftr\xe4ge","description":"ZIP DOWNLOAD","permalink":"/docs/M117/auftraege"}]}')}}]);

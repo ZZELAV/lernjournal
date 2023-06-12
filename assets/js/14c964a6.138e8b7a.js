@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[33539],{64702:s=>{s.exports=JSON.parse('{"label":"SQL DML","permalink":"/docs/tags/sql-dml","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0001","title":"Tag 1","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0001"}]}')}}]);

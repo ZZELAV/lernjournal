@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[94902],{77431:s=>{s.exports=JSON.parse('{"label":"Make or Buy","permalink":"/docs/tags/make-or-buy","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0008","title":"Tag 8","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0008"}]}')}}]);
