@@ -36,3 +36,8 @@ pagination_prev: null
 > Anforderungen  
 > Funktionale und nicht-funktionale Anforderungen  
 > Pflichtenheft
+
+> [**Tag 8**](./tag-0008.md)  
+> Make or Buy  
+> Nutzwertanalyse  
+> Konzeptbericht
