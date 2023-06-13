@@ -46,3 +46,8 @@ pagination_prev: null
 > Lieferobjekte  
 > Projektstrukturplan  
 > Machbarkeit prüfen
+
+> [**Tag 10**](./tag-0010.md)  
+> Aufwand schätzen  
+> Kostenplan  
+> Terminplan
