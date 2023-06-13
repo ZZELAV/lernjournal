@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[92100],{25359:s=>{s.exports=JSON.parse('{"label":"Aufwand sch\xe4tzen","permalink":"/docs/tags/aufwand-schatzen","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0010","title":"Tag 10","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0010"}]}')}}]);
