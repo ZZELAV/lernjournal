@@ -55,6 +55,7 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    "docusaurus-plugin-image-zoom",
   ],
 
   themeConfig:
@@ -66,6 +67,15 @@ const config = {
       docs: {
         sidebar: {
           autoCollapseCategories: true,
+        },
+      },
+      zoom: {
+        selector: "img",
+        background: {
+          dark: "rgb(32, 35, 42)",
+        },
+        config: {
+          margin: 100,
         },
       },
       navbar: {
