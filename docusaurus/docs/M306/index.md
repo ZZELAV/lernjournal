@@ -66,3 +66,8 @@ pagination_prev: null
 > Team führen und überwachen  
 > Regelkreis der Projektführung  
 > Statusgespräch
+
+> [**Tag 14**](./tag-0014.md)  
+> Projekt überwachen  
+> Terminsituation ermitteln  
+> Kritischer Pfad
