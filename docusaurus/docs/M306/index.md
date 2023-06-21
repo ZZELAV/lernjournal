@@ -71,3 +71,8 @@ pagination_prev: null
 > Projekt überwachen  
 > Terminsituation ermitteln  
 > Kritischer Pfad
+
+> [**Tag 15**](./tag-0015.md)  
+> Modell für die Erstellung von Lieferobjekten  
+> Klassisches und agiles Vorgehen  
+> Scrum
