@@ -61,3 +61,8 @@ pagination_prev: null
 > Kick-Off-Meeting  
 > Meilenstein  
 > Checkliste Kick-Off-Meeting
+
+> [**Tag 13**](./tag-0013.md)  
+> Team führen und überwachen  
+> Regelkreis der Projektführung  
+> Statusgespräch
