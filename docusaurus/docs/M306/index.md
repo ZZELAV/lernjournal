@@ -76,3 +76,5 @@ pagination_prev: null
 > Modell für die Erstellung von Lieferobjekten  
 > Klassisches und agiles Vorgehen  
 > Scrum
+
+[Moduljournal](/data/m306/Moduljournal_M306_Valentino_Panico.pdf)
