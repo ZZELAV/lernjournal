@@ -56,3 +56,8 @@ pagination_prev: null
 > Kostentabelle  
 > Planung optimieren  
 > Planung abstimmen
+
+> [**Tag 12**](./tag-0012.md)  
+> Kick-Off-Meeting  
+> Meilenstein  
+> Checkliste Kick-Off-Meeting
