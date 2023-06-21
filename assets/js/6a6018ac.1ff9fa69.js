@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[46746],{34907:s=>{s.exports=JSON.parse('{"label":"Scrum","permalink":"/docs/tags/scrum","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0015","title":"Tag 15","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0015"}]}')}}]);

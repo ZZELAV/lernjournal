@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[72177],{49563:s=>{s.exports=JSON.parse('{"label":"Meilenstein","permalink":"/docs/tags/meilenstein","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0012","title":"Tag 12","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0012"}]}')}}]);
