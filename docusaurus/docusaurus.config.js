@@ -121,12 +121,12 @@ const config = {
             title: "// Aktuelle Module",
             items: [
               {
-                label: "M141",
-                to: "/docs/M141/",
+                label: "M145",
+                to: "/docs/M145/",
               },
               {
-                label: "M306",
-                to: "/docs/M306/",
+                label: "M182",
+                to: "/docs/M182/",
               },
             ],
           },
@@ -173,7 +173,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v6.15<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v7.0<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
