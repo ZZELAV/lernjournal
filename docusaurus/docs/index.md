@@ -5,6 +5,12 @@ pagination_next: null
 
 # Doku
 
+## 7. Semester
+
+[**M145**](./M145/index.md)
+
+[**M182**](./M182/index.md)
+
 ## 6. Semester
 
 [**M141**](./M141/index.md)

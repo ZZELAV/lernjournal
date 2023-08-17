@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: "Aktuelles Semester",
     Svg: require("@site/static/data/undraw_new_entries_re_cffr.svg").default,
-    description: <>Wir sind aktuell im 6. Semester</>,
+    description: <>Wir sind aktuell im 7. Semester</>,
   },
   {
     title: "Lernjournal",
@@ -18,7 +18,7 @@ const FeatureList = [
   {
     title: "Aktuelle Module",
     Svg: require("@site/static/data/undraw_file_manager_re_ms29.svg").default,
-    description: <>M141, M306</>,
+    description: <>M145, M182</>,
   },
 ];
 
