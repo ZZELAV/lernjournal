@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[31286],{79346:a=>{a.exports=JSON.parse('{"label":"Performance Management","permalink":"/docs/tags/performance-management","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M145/tag-0004","title":"Tag 4","description":"1 Performance Management","permalink":"/docs/M145/tag-0004"}]}')}}]);
