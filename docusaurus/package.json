@@ -1,6 +1,6 @@
 {
   "name": "docusaurus",
-  "version": "7.5",
+  "version": "7.11",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
