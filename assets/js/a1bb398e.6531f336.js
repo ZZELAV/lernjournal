@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[84843],{29032:s=>{s.exports=JSON.parse('{"label":"Cloud","permalink":"/docs/tags/cloud","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M145/tag-0007","title":"Tag 7","description":"","permalink":"/docs/M145/tag-0007"}],"unlisted":false}')}}]);

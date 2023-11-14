@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[65097],{77355:s=>{s.exports=JSON.parse('{"label":"PowerPoint","permalink":"/docs/tags/power-point","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M301/powerpoint","title":"PowerPoint","description":"ZIP DOWNLOAD","permalink":"/docs/M301/powerpoint"}],"unlisted":false}')}}]);

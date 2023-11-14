@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[54081],{12952:s=>{s.exports=JSON.parse('{"label":"Dienste","permalink":"/docs/tags/dienste","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M239/tag-0001","title":"Tag 1","description":"1 Repetitionsfragen","permalink":"/docs/M239/tag-0001"}]}')}}]);

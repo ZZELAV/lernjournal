@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[65784],{14828:e=>{e.exports=JSON.parse('{"label":"Repetitionsfragen Kap. 12/16","permalink":"/docs/tags/repetitionsfragen-kap-12-16","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M143/tag-0016","title":"Tag 16","description":"Vorbereitung LB2","permalink":"/docs/M143/tag-0016"}]}')}}]);

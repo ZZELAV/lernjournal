@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[35469],{68224:e=>{e.exports=JSON.parse('{"label":"Unterlagen","permalink":"/docs/tags/unterlagen","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M214/unterlagen","title":"Unterlagen","description":"ZIP DOWNLOAD","permalink":"/docs/M214/unterlagen"}],"unlisted":false}')}}]);

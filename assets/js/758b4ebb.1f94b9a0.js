@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[58560],{39430:s=>{s.exports=JSON.parse('{"label":"Datentypen","permalink":"/docs/tags/datentypen","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0004","title":"Tag 4","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0004"}],"unlisted":false}')}}]);

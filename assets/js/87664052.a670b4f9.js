@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[60897],{94897:a=>{a.exports=JSON.parse('{"label":"Machbarkeit pr\xfcfen","permalink":"/docs/tags/machbarkeit-prufen","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0009","title":"Tag 9","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0009"}]}')}}]);

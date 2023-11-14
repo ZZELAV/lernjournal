@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[71371],{78836:e=>{e.exports=JSON.parse('{"label":"Vorbereitung LB2","permalink":"/docs/tags/vorbereitung-lb-2","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M143/tag-0016","title":"Tag 16","description":"Vorbereitung LB2","permalink":"/docs/M143/tag-0016"}],"unlisted":false}')}}]);

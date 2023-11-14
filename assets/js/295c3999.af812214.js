@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[79279],{35332:s=>{s.exports=JSON.parse('{"label":"InnoDB","permalink":"/docs/tags/inno-db","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0003","title":"Tag 3","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0003"}]}')}}]);

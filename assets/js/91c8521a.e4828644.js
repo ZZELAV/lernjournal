@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[68929],{31883:s=>{s.exports=JSON.parse('{"label":"Kontrollstrukturen","permalink":"/docs/tags/kontrollstrukturen","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M122/tag-0009","title":"Tag 9","description":"1 Kontrollstrukturen","permalink":"/docs/M122/tag-0009"}]}')}}]);

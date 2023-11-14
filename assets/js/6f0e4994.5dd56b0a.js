@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[69724],{87383:s=>{s.exports=JSON.parse('{"label":"IoT","permalink":"/docs/tags/io-t","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M145/tag-0007","title":"Tag 7","description":"","permalink":"/docs/M145/tag-0007"}],"unlisted":false}')}}]);

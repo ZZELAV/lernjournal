@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[27952],{7505:e=>{e.exports=JSON.parse('{"label":"Netzwerkdokumentation","permalink":"/docs/tags/netzwerkdokumentation","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M145/tag-0002","title":"Tag 2","description":"1 Namenskonzept","permalink":"/docs/M145/tag-0002"}]}')}}]);

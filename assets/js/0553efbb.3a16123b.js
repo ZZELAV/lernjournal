@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[76311],{1779:s=>{s.exports=JSON.parse('{"label":"Cluster","permalink":"/docs/tags/cluster","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0013","title":"Tag 13","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0013"}],"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[98132],{33206:e=>{e.exports=JSON.parse('{"label":"Lieferobjekte","permalink":"/docs/tags/lieferobjekte","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0009","title":"Tag 9","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0009"}]}')}}]);

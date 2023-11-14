@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[74022],{55973:s=>{s.exports=JSON.parse('{"label":"Storage-Engine","permalink":"/docs/tags/storage-engine","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M141/tag-0003","title":"Tag 3","description":"1 Dokumentationsauftr\xe4ge","permalink":"/docs/M141/tag-0003"}]}')}}]);

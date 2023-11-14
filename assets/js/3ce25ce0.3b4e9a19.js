@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[58082],{78040:s=>{s.exports=JSON.parse('{"label":"Kritischer Pfad","permalink":"/docs/tags/kritischer-pfad","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0014","title":"Tag 14","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0014"}],"unlisted":false}')}}]);

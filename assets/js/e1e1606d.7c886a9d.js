@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[43460],{10118:s=>{s.exports=JSON.parse('{"label":"Planung abstimmen","permalink":"/docs/tags/planung-abstimmen","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M306/tag-0011","title":"Tag 11","description":"Unterrichtspr\xe4sentation","permalink":"/docs/M306/tag-0011"}]}')}}]);

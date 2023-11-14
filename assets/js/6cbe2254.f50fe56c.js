@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[39472],{79318:s=>{s.exports=JSON.parse('{"label":"LB3","permalink":"/docs/tags/lb-3","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M124/lb3","title":"LB3","description":"ZIP DOWNLOAD","permalink":"/docs/M124/lb3"}]}')}}]);
