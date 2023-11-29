@@ -29,6 +29,10 @@ pagination_next: null
 
 [**Art. 9 VDSG (Stand: 1. Dezember 2010)**](./M143/art_9_vdsg.md)
 
+## M182
+
+[**apt list --installed**](./M182/apt_installed.md)
+
 ## M226B
 
 [**UML**](./M226B/UML/index.md)

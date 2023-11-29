@@ -8,5 +8,7 @@ sidebar_position: 2
 
 [LB2 - Allgemeine Informationen](/data/m182/lb2/lb2_allgemeine_informationen.pdf)
 
+[Repository DetectionLAB ELK](https://github.com/cyberdefenders/DetectionLabELK)
+
 > [**Auftrag 1**](./auftrag-0001.md)  
 > Infrastruktur aufbauen/verstehen und dokumentieren (10%)
