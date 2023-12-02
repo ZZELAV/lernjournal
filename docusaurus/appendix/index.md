@@ -31,7 +31,11 @@ pagination_next: null
 
 ## M182
 
+[**ELK.sh**](./M182/ELK_sh.md)
+
 [**apt list --installed**](./M182/apt_installed.md)
+
+[**bootstrap.sh**](./M182/bootstrap_sh.md)
 
 ## M226B
 
