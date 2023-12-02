@@ -186,6 +186,7 @@ const config = {
           "markup",
           "mongodb",
           "json",
+          "bash",
         ],
       },
     }),
