@@ -10,6 +10,8 @@ tags:
 
 # Infrastruktur aufbauen/verstehen und dokumentieren (10%)
 
+[Auftrag](/data/m182/lb2/auftrag01.pdf)
+
 ## 1 Infrastruktur-Lab
 
 ### 1.1 Netzwerk-Diagramm mit IP-Adressen der VMs
@@ -85,7 +87,7 @@ Die meisten Softwares können direkt über die Konsole genutzt werden. Es gibt a
 Zugriff auf ELK-Komponenten:
 
 [http://192.168.56.105:5601](http://192.168.56.105:5601) Kibana - Credentials: `vagrant:vagrant`  
-[https://192.168.56.105:8412](https://192.168.56.105:8412) Fleet - Credentials: `vagrant:vagrant`  
+[https://192.168.56.105:8412](https://192.168.56.105:8412) Fleet - Credentials: `vagrant:vagrant`
 
 ## 2 Infrastruktur-Setup
 
