@@ -91,10 +91,61 @@ Zugriff auf ELK-Komponenten:
 
 ### 2.1 Sinn und Zweck des Vagrantfile
 
+Ein Vagrantfile ist eine Konfiguration für [Vagrant](https://www.vagrantup.com/), ein Tool zum Erstellen und Verwalten von virtuellen Maschinen in einem Workflow. Es definiert wie die VM aufgesetzt wird. Dazu gehören das Basis-Image (Box genannt), die Netzwerkkonfiguration, CPU und Speicher Zuweisungen sowie die Konfiguration von Shared Folders.
+
 ### 2.2 Sinn und Zweck Provisioning-Befehle
+
+Provisioning-Befehle dienen dazu, nach der Erstellung der VM, automatisch sie zu konfigurieren. Dies kann die Installation von Software, das Ausführen von Skripten oder das Anwenden von Einstellungen. Durch diese Befehle können die Maschinen immer konsistent gleich eingerichtet werden und dies automatisiert.
 
 ### 2.3 Liste aller Scripts für die Windows-Images die bei einer Installation ausgeführt werden
 
+```
+bginfo-simple.bgi
+bginfo-workshop.bgi
+bginfo.bgi
+configure-AuditingPolicyGPOs.ps1
+configure-disable-windows-defender-gpo.ps1
+configure-ou.ps1
+configure-powershelllogging.ps1
+configure-pslogstranscriptsshare.ps1
+configure-rdp-user-gpo.ps1
+configure-wef-gpo.ps1
+create-domain.ps1
+download_palantir_osquery.ps1
+download_palantir_wef.ps1
+enable-winrm.ps1
+fix-second-network.ps1
+fix-windows-expiration.ps1
+install-autorunstowineventlog.ps1
+install-bginfo.ps1
+install-choco-extras.ps1
+install-inputsconf.ps1
+install-microsoft-ata.ps1
+install-osquery.ps1
+install-redteam.ps1
+install-splunkuf.ps1
+install-sysinternals.ps1
+install-utilities.ps1
+install-velociraptor.ps1
+install-wefsubscriptions.ps1
+install-windows_ta.ps1
+install-winlogbeat.ps1
+join-domain.ps1
+MakeWindows10GreatAgain.ps1
+MakeWindows10GreatAgain.reg
+provision.ps1
+```
+
 ### 2.4 Beschreibung des bootstrap.sh-Files für das Aufsetzen der Logger-VM
 
+Das [bootstrap.sh](/appendix/M182/bootstrap_sh)-File ist ein Shell-Skript, dass beim Aufsetzen einer Linux VM ausgeführt wird. Es werden Repositories und Dependencies geladen und installiert. Auch werden direkt alle Pakete auf dem System aktualisiert. Anschliessend werden noch einige Dienste konfiguriert und gestartet.
+
 ### 2.5 Beschreibung des ELK.sh-Files für das Aufsetzen der Logger-VM
+
+Das [ELK.sh](/appendix/M182/ELK_sh)-File ist eine Erweiterung des `bootstrap.sh`-File, welches spezifisch für den Einsatz des ELK-Stacks (Elasticsearch, Logstash, Kibana) eingesetzt wird. Es beinhaltet die zu installierenden Software Pakete.
+
+---
+
+Quellen:
+
+[Vagrantfile](https://developer.hashicorp.com/vagrant/docs/vagrantfile)
