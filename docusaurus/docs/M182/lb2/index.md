@@ -12,3 +12,6 @@ sidebar_position: 2
 
 > [**Auftrag 1**](./auftrag-0001.md)  
 > Infrastruktur aufbauen/verstehen und dokumentieren (10%)
+
+> [**Auftrag 2**](./auftrag-0002.md)  
+> Installation, Konfiguration und Testing von WSUS (20%)
