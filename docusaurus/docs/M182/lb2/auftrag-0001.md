@@ -87,7 +87,7 @@ Die meisten Softwares können direkt über die Konsole genutzt werden. Es gibt a
 Zugriff auf ELK-Komponenten:
 
 [http://192.168.56.105:5601](http://192.168.56.105:5601) Kibana - Credentials: `vagrant:vagrant`  
-[https://192.168.56.105:8412](https://192.168.56.105:8412) Fleet - Credentials: `vagrant:vagrant`
+[https://192.168.56.105:8412](https://192.168.56.105:8412) Fleet - Credentials: `admin@detectionlab.network:Fl33tpassword!`
 
 ## 2 Infrastruktur-Setup
 
