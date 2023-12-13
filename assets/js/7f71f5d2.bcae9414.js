@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[92384],{45995:a=>{a.exports=JSON.parse('{"label":"Auftrag 1","permalink":"/docs/tags/auftrag-1","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M182/lb2/auftrag-0001","title":"Auftrag 1","description":"1 Infrastruktur-Lab","permalink":"/docs/M182/lb2/auftrag-0001"}],"unlisted":false}')}}]);
