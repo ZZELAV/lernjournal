@@ -33,11 +33,27 @@ Beide Alternativen sind von Drittanbietern entwickelt und bitten neben dem Patch
 
 ### 2.1 Welche Powershell-Cmdlets gibt es, um den WSUS-Dienst zu konfigurieren/steuern
 
+| Cmdlet | Beschreibung |
+| --- | --- |
+| `Get-WSUSServer` | Stellt eine Verbindung mit dem (lokalen) WSUS-Server her und gibt den Namen zurück. |
+| `Set-WSUSServerSynchronization` | Konfiguriert die Synchronisationseinstellungen für den WSUS-Server mit Microsoft Update oder einem anderen Upstream Server. |
+| `Get-WSUSUpdate` | Ruft Informationen zu Updates vom WSUS-Server ab. |
+| `Approve-WSUSUpdate` | Genehmigt Updates für eine bestimmte Computergruppe. |
+| `Deny-WSUSUpdate` | Lehnt Updates ab, die nicht installiert werden sollen. |
+| `Get-WSUSComputer` | Ruft Informationen über den Computer ab, welcher mit dem WSUS-Server verbunden ist. |
+| `Add-WSUSComputer` | Fügt einen Computer mit einer Computergruppe zum WSUS-Server hinzu. |
+| `Set-WSUSClassification` | Legt fest, welche Arten von Updates der WSUS-Server synchronisieren soll. (z.B. Sicherheitsupdates, Treiber, etc.) |
+| `Set-WSUSProduct` | Legt fest, welche Produkte der WSUS-Server synchronisieren soll. |
+| `Get-WSUSProduct` | Ruft Informationen über die die momentan verfügbaren Produkten auf dem WSUS-Server ab. |
+| `Invoke-WSUSServerCleanup` | Führt eine Bereinigung des WSUS-Server durch, um nicht benötigte Updates und Computer zu entfernen. |
+
 ## 3 Installation Client - WSUS
 
 ### 3.1 Dokumenation der Konfiguration um den Update-Prozess mittels GPOs zu steuern
 
 ### 3.2 Welche Powershell-Cmdlets gibt es, um den WSUS-Client zu konfigurieren/steuern
+
+[2.1 Welche Powershell-Cmdlets gibt es, um den WSUS-Dienst zu konfigurieren/steuern](#21-welche-powershell-cmdlets-gibt-es-um-den-wsus-dienst-zu-konfigurierensteuern)
 
 ## 4 Testing und Reporting - WSUS
 
