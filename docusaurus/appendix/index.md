@@ -37,6 +37,8 @@ pagination_next: null
 
 [**bootstrap.sh**](./M182/bootstrap_sh.md)
 
+[**Sysmon Config**](./M182/sysmon_config.md)
+
 ## M226B
 
 [**UML**](./M226B/UML/index.md)

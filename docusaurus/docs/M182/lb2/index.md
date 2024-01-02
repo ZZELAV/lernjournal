@@ -15,3 +15,6 @@ sidebar_position: 2
 
 > [**Auftrag 2**](./auftrag-0002.md)  
 > Installation, Konfiguration und Testing von WSUS (20%)
+
+> [**Auftrag 3**](./auftrag-0003.md)  
+> Beschreibung und Recherche der Software Sysmon (15%)
