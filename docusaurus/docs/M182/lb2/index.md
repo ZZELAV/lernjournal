@@ -18,3 +18,6 @@ sidebar_position: 2
 
 > [**Auftrag 3**](./auftrag-0003.md)  
 > Beschreibung und Recherche der Software Sysmon (15%)
+
+> [**Auftrag 4**](./auftrag-0004.md)  
+> Beschreibung der Software OSQuery (10%)
