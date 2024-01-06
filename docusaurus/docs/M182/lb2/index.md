@@ -21,3 +21,6 @@ sidebar_position: 2
 
 > [**Auftrag 4**](./auftrag-0004.md)  
 > Beschreibung der Software OSQuery (10%)
+
+> [**Auftrag 5**](./auftrag-0005.md)  
+> Installation Winlogbeat (15%)
