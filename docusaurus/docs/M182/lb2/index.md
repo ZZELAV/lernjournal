@@ -24,3 +24,6 @@ sidebar_position: 2
 
 > [**Auftrag 5**](./auftrag-0005.md)  
 > Installation Winlogbeat (15%)
+
+> [**Auftrag 6**](auftrag-0006.md)  
+> Security Dashboards ELK (15%)
