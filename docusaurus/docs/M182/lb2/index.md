@@ -25,5 +25,8 @@ sidebar_position: 2
 > [**Auftrag 5**](./auftrag-0005.md)  
 > Installation Winlogbeat (15%)
 
-> [**Auftrag 6**](auftrag-0006.md)  
+> [**Auftrag 6**](./auftrag-0006.md)  
 > Security Dashboards ELK (15%)
+
+> [**Auftrag 7**](./auftrag-0007.md)  
+> Fleet Osquery Testing (15%)
