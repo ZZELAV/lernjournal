@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[39830],{44953:a=>{a.exports=JSON.parse('{"label":"Winlogbeat","permalink":"/docs/tags/winlogbeat","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M182/lb2/auftrag-0005","title":"Auftrag 5","description":"Auftrag","permalink":"/docs/M182/lb2/auftrag-0005"}],"unlisted":false}')}}]);

@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/ -->
+<html lang="de" class="js-focus-visible js" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+      
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.2">
+    
+    
+      
+        <title>LB2 - Security Dashboards ELK (15%) - Unterrichtsmaterial</title>
+      
+    
+    
+      <link rel="stylesheet" href="./auftrag06_files/main.69437709.min.css">
+      
+        
+        <link rel="stylesheet" href="./auftrag06_files/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link rel="stylesheet" href="./auftrag06_files/css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-enum-headings1.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-enum-headings2.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-enum-headings3.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-enum-headings4.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-enum-headings5.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-enum-headings6.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site.css">
+    
+      <link rel="stylesheet" href="./auftrag06_files/print-site-material.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link rel="stylesheet" href="./auftrag06_files/stylesheet"></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" cz-shortcut-listen="true">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#1-lb2-security-dashboards-elk-15" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/" title="Unterrichtsmaterial" class="md-header__button md-logo" aria-label="Unterrichtsmaterial" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+    </label>
+    <div class="md-header__title md-header__title--active" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unterrichtsmaterial
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LB2 - Security Dashboards ELK (15%)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Zurücksetzen" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">Suchbegriff eingeben</div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/" class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/01_fallstudien/100_Fallstudien/" class="md-tabs__link">
+      Fallstudien
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/03_standards/00_standards_compendio/" class="md-tabs__link">
+      IT Security Standards
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/" class="md-tabs__link">
+        Pentesting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/200_LB2_Allgemein/" class="md-tabs__link md-tabs__link--active">
+        LB2 - Praktische Umsetzungsarbeit
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style="top: 106px;">
+                <div class="md-sidebar__scrollwrap" style="height: 550.667px;">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/" title="Unterrichtsmaterial" class="md-nav__button md-logo" aria-label="Unterrichtsmaterial" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+
+    </a>
+    Unterrichtsmaterial
+  </label>
+  
+  <ul class="md-nav__list">
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/01_fallstudien/100_Fallstudien/" class="md-nav__link">
+        Fallstudien
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/03_standards/00_standards_compendio/" class="md-nav__link">
+        IT Security Standards
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4">
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/">Pentesting</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Pentesting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pentesting
+        </label>
+        <ul class="md-nav__list">
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/00_EinrichtenNetzNAT/" class="md-nav__link">
+        Einstellung LAB
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/01_PreEngagement/" class="md-nav__link">
+        Phase 1 : Pre-engagement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/02_IntelligenceGathering/" class="md-nav__link">
+        Phase 2 : Intelligence Gathering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/03_ThreatModeling/" class="md-nav__link">
+        Phase 3 : Threat Modeling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/04_VulnerabilityAnalysis/" class="md-nav__link">
+        Phase 4 : Vulnerability Analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/05_Exploitation/" class="md-nav__link">
+        Phase 5 : Exploitation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/06_PostExploitation/" class="md-nav__link">
+        Phase 6 : Post-Exloitation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/07_Reporting/" class="md-nav__link">
+        Phase 7 : Reporting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/101_DNS/" class="md-nav__link">
+        DNS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/102_NMAP/" class="md-nav__link">
+        Portscanning mit NMAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/103_Sockets/" class="md-nav__link">
+        TCP/UDP Sockets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/110_NmapmitNSE/" class="md-nav__link">
+        Nmap mit NSE-Erweiterung
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/111_OpenVAS/" class="md-nav__link">
+        OpenVAS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/112_Nikto/" class="md-nav__link">
+        Nikto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/200_ExploitingMitNSE/" class="md-nav__link">
+        Exploiting mit NMAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/201_MetasploitFramework/" class="md-nav__link">
+        Metasploit Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/50_OSINT/" class="md-nav__link">
+        OSINT - Übersicht und mögliche Werkzeuge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/04_pentesting/800_optionalUDPSocketsFirewall/" class="md-nav__link">
+        (Optional) UDP-Ports über Firewalls
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked="">
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          LB2 - Praktische Umsetzungsarbeit
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="LB2 - Praktische Umsetzungsarbeit" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          LB2 - Praktische Umsetzungsarbeit
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/200_LB2_Allgemein/" class="md-nav__link">
+        LB2 - Allgemeine Informationen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/205_LB2_Infrastruktur/" class="md-nav__link">
+        LB2 - Infrastruktur aufbauen/verstehen und dokumentieren (10%)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/210_LB2_WSUS/" class="md-nav__link">
+        LB2 - Installation, Konfiguration und Testing von WSUS (20%)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/300_LB2_Sysmon/" class="md-nav__link">
+        LB2 - Beschreibung und Recherche der Software Sysmon (15%)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/310_LB2_Osquery/" class="md-nav__link">
+        LB2 - Beschreibung der Software OSQuery (10%)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/320_LB2_InstallWinlogbeat/" class="md-nav__link">
+        LB2 - Installation Winlogbeat (15%)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          LB2 - Security Dashboards ELK (15%)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/" class="md-nav__link md-nav__link--active">
+        LB2 - Security Dashboards ELK (15%)
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#11-lernziele" class="md-nav__link md-nav__link--passed md-nav__link--active">
+    1.1 Lernziele
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#12-info" class="md-nav__link">
+    1.2 Info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#13-auftrage-und-bewertungskriterien" class="md-nav__link">
+    1.3 Aufträge und Bewertungskriterien
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/340_LB2_FleetOsQueryTesting/" class="md-nav__link">
+        LB2 - Fleet Osquery Testing (15%)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" style="top: 106px;">
+                <div class="md-sidebar__scrollwrap" style="height: 550.667px;">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#11-lernziele" class="md-nav__link md-nav__link--passed md-nav__link--active">
+    1.1 Lernziele
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#12-info" class="md-nav__link">
+    1.2 Info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#13-auftrage-und-bewertungskriterien" class="md-nav__link">
+    1.3 Aufträge und Bewertungskriterien
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+  
+
+
+
+<h1 id="1-lb2-security-dashboards-elk-15">1. LB2 - Security Dashboards ELK (15%)<a class="headerlink" href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#1-lb2-security-dashboards-elk-15" title="Permanent link">#</a></h1>
+<h2 id="11-lernziele">1.1 Lernziele<a class="headerlink" href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#11-lernziele" title="Permanent link">#</a></h2>
+<p>Jede/r Lernende:</p>
+<ul>
+<li>...kann in eigenen Worten beschreiben wie Security Alerts in ELK aufgebaut werden</li>
+</ul>
+<h2 id="12-info">1.2 Info<a class="headerlink" href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#12-info" title="Permanent link">#</a></h2>
+<p>Unter dem <a href="http://192.168.56.105:5601/app/security/rules">Link</a> sind verschiedene Security Rules vordefiniert. In unserer Open Source-Lizenz ist jeweils nur !eine! Rule gleichzeitig aktivierbar.</p>
+<h2 id="13-auftrage-und-bewertungskriterien">1.3 Aufträge und Bewertungskriterien<a class="headerlink" href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#13-auftrage-und-bewertungskriterien" title="Permanent link">#</a></h2>
+<p><strong>Recherche - Security Dashboards/Rules 0-4P: </strong></p>
+<ul>
+<li>Beschreiben Sie wie die Security Rules allgemein aufgebaut sind (mit Printscreens)</li>
+</ul>
+<p><strong>Testing und Doku 0-8P: </strong></p>
+<ul>
+<li>Suchen Sie sich ein Beispiel aus der Liste aus und dokumentieren Sie das Beispiel konkret (mit Printscreens)</li>
+<li>Versuchen (und dokumentieren Sie den Versuch!) einen Alert für Ihre Rule zu generieren (mit Printscreens)</li>
+</ul>
+
+
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/330_LB2_SecurityDashboardsELK/#" class="md-top md-icon" data-md-component="top" hidden="" style="top: 122px;" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Zurück zum Seitenanfang
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/320_LB2_InstallWinlogbeat/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: LB2 - Installation Winlogbeat (15%)" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Zurück
+              </span>
+              LB2 - Installation Winlogbeat (15%)
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="https://moodle.bztf.ch/pluginfile.php/269656/mod_resource/content/1/site/05_lb2/340_LB2_FleetOsQueryTesting/" class="md-footer__link md-footer__link--next" aria-label="Weiter: LB2 - Fleet Osquery Testing (15%)" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Weiter
+              </span>
+              LB2 - Fleet Osquery Testing (15%)
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2021 - 2022 Christian Inauen
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="./auftrag06_files/bundle.9c69f0bc.min.js.Download"></script>
+      
+        <script src="./auftrag06_files/print-site.js.Download"></script>
+      
+    
+  
+</body></html>

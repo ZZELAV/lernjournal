@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[6579],{35769:s=>{s.exports=JSON.parse('{"label":"Fleet Osquery","permalink":"/docs/tags/fleet-osquery","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M182/lb2/auftrag-0007","title":"Auftrag 7","description":"Auftrag","permalink":"/docs/M182/lb2/auftrag-0007"}],"unlisted":false}')}}]);

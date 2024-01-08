@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[64753],{67854:s=>{s.exports=JSON.parse('{"label":"Sysmon","permalink":"/docs/tags/sysmon","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M182/lb2/auftrag-0003","title":"Auftrag 3","description":"Auftrag","permalink":"/docs/M182/lb2/auftrag-0003"}],"unlisted":false}')}}]);

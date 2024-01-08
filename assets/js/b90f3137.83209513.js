@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[34506],{85973:s=>{s.exports=JSON.parse('{"label":"OSQuery","permalink":"/docs/tags/os-query","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M182/lb2/auftrag-0004","title":"Auftrag 4","description":"Auftrag","permalink":"/docs/M182/lb2/auftrag-0004"}],"unlisted":false}')}}]);
