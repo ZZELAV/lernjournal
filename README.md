@@ -20,4 +20,4 @@
 
 [Docusaurus](https://docusaurus.io/)
 
-Copyright &copy; 2022 Lernjournal, Valentino Panico
+Copyright &copy; 2024 Lernjournal, Valentino Panico
