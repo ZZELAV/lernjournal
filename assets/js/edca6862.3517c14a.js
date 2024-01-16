@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[83705],{70135:s=>{s.exports=JSON.parse('{"label":"Seekabel","permalink":"/docs/tags/seekabel","allTagsPath":"/docs/tags","count":1,"items":[{"id":"M145/tag-0017","title":"Tag 17","description":"","permalink":"/docs/M145/tag-0017"}],"unlisted":false}')}}]);
