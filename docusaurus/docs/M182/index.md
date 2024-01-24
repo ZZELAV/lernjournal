@@ -68,3 +68,5 @@ pagination_prev: null
 > [**Tag 20**](./tag-0020.md)
 
 > [**LB2**](./lb2/index.md)
+
+**Modul-Abschlussnote: 5.0**

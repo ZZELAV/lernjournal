@@ -78,3 +78,5 @@ pagination_prev: null
 > Scrum
 
 [Moduljournal](/data/m306/Moduljournal_M306_Valentino_Panico.pdf)
+
+**Modul-Abschlussnote: 4.5**

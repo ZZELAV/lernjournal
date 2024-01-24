@@ -61,3 +61,5 @@ Zusätzliche Inhalte:
 - [Glossar](/appendix/M141/glossar)
 - [Prüfungsvorbereitung LB1](/appendix/M141/pruefungsvorbereitung-lb1)
 - [Prüfungsvorbereitung LB2](/appendix/M141/pruefungsvorbereitung-lb2)
+
+**Modul-Abschlussnote: 5.5**

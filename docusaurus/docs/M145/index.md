@@ -77,3 +77,5 @@ pagination_prev: null
 > RZ-Umbau
 
 > [**Tag 20**](./tag-0020.md)
+
+**Modul-Abschlussnote: 5.0**
